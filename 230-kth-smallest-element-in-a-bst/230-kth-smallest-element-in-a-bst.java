@@ -1,7 +1,6 @@
 class Solution {
   public int kthSmallest(TreeNode root, int k) {
-    LinkedList<TreeNode> stack = new LinkedList<>();
-
+    Stack<TreeNode> stack = new Stack<>();
     while (true) {
       while (root != null) {
         stack.push(root);
