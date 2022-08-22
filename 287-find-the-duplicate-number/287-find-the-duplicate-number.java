@@ -5,6 +5,6 @@ class Solution {
             if(storeNums.contains(num)) return num;
             storeNums.add(num);
         }
-        return 0;
+        return -1;
     }
 }
