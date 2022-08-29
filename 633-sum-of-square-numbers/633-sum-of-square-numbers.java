@@ -1,10 +1,16 @@
+import java.lang.Math;
 class Solution {
     public boolean judgeSquareSum(int c) {
-         for (long a = 0; a * a <= c; a++) {
-            double b = Math.sqrt(c - a * a);
-            if (b == (int) b)
-                return true;
-                }
+     long a=0;
+     long b=(long)(Math.sqrt(c));
+        while(a<=b){
+            long answer=a*a+b*b;
+            if(answer==c) return true;
+            else if(answer>c){
+                b--;
+            }
+            a++;
+        }
         return false;
     }
 }
