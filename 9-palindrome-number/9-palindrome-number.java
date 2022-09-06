@@ -3,11 +3,13 @@ class Solution {
       if(x<0 || (x%10==0 && x!=0)){
           return false;
       }
-        int revertedNumber=0;
-        while(x>revertedNumber){
-            revertedNumber=revertedNumber*10+x%10;
-            x/=10;
+       int sum=0;
+        int y=x;
+        while(y>0){
+            int remainder=y%10;
+            sum=sum*10+remainder;
+            y=y/10;
         }
-        return x==revertedNumber||x==revertedNumber/10;
+        return sum==x;
     }
 }
