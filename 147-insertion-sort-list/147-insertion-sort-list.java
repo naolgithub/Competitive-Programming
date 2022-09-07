@@ -9,30 +9,24 @@
  * }
  */
 class Solution {
-    ListNode startNode;
-    ListNode tail;
-    public void buildSinglyLinkedList(int data){
-        ListNode node=new ListNode(data);
-        if(startNode==null){
-            startNode=node;
-            tail=node;
-        }
-        else{
-        tail.next=node;
-        tail=node;
-        }
-    }
     public ListNode insertionSortList(ListNode head) {
-        List<Integer> list=new ArrayList<>();
-        ListNode temp=head;
-        while(temp!=null){
-            list.add(temp.val);
-            temp=temp.next;
+        ListNode dummy=new ListNode(0);
+        ListNode current=head;
+        while(current!=null){
+            ListNode temp=current.next;
+            ListNode prev=dummy;
+            ListNode nxt=dummy.next;
+            while(nxt!=null){
+                if(nxt.val>current.val) {
+                    break;
+                }
+                prev=nxt;
+                nxt=nxt.next;
+            }
+            current.next=nxt;
+            prev.next=current;
+            current=temp;
         }
-        Collections.sort(list);
-        for(int i=0;i<list.size();i++){
-            buildSinglyLinkedList(list.get(i));
-        }
-        return startNode;
+        return dummy.next;
     }
 }
