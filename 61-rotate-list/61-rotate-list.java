@@ -18,12 +18,16 @@ class Solution {
             tail=tail.next;
             length++;
         }
+        // connecting the last element to the head
         tail.next=head;
+        // since k might be greater than length, we have to use modulus operation.
+        // we dont how much iteration is so we supposed to do modulus
         k=k%length;
         for(int i=0;i<length-k;i++){
             tail=tail.next;
         }
         newHead=tail.next;
+        // making tail.next null
         tail.next=null;
         return newHead;
     }
