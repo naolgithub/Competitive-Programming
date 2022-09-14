@@ -1,5 +1,8 @@
 class Solution {
     public void wiggleSort(int[] nums) {
+        
+        // wiggle means to move up and down or from side to side with small rapid movements.
+        
         //creating new array called result and storing all elements of nums into it and sorting it.
         int[] result = new int[nums.length];
         for(int i=0;i<nums.length;i++)
