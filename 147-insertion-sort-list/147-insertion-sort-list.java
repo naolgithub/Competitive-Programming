@@ -9,24 +9,30 @@
  * }
  */
 class Solution {
-    public ListNode insertionSortList(ListNode head) {
-        ListNode dummy=new ListNode(0);
-        ListNode current=head;
-        while(current!=null){
-            ListNode temp=current.next;
-            ListNode prev=dummy;
-            ListNode nxt=dummy.next;
-            while(nxt!=null){
-                if(nxt.val>current.val) {
-                    break;
-                }
-                prev=nxt;
-                nxt=nxt.next;
-            }
-            current.next=nxt;
-            prev.next=current;
-            current=temp;
+    ListNode anotherBuiltHead;
+    ListNode pointer;
+    private void buildSinglyLinkedList(int data){
+        ListNode node=new ListNode(data);
+        if(anotherBuiltHead==null){
+            anotherBuiltHead=node;
+            pointer=node;
         }
-        return dummy.next;
+        else{
+            pointer.next=node;
+            pointer=node;
+        }
+    }
+    public ListNode insertionSortList(ListNode head) {
+        List<Integer> list=new ArrayList<>();
+        ListNode temp=head;
+        while(temp!=null){
+            list.add(temp.val);
+            temp=temp.next;
+        }
+        Collections.sort(list);
+        for(int i=0;i<list.size();i++){
+            buildSinglyLinkedList(list.get(i));
+        }
+        return anotherBuiltHead;
     }
 }
