@@ -1,4 +1,3 @@
-
 import java.math.BigInteger;
 class Solution {
     public String kthLargestNumber(String[] nums, int k) {
@@ -7,7 +6,6 @@ class Solution {
            arr[i]=new BigInteger(nums[i]);
         }
         Arrays.sort(arr);
-        BigInteger result= arr[arr.length-k];
-        return result.toString();
+        return arr[arr.length-k].toString();
     }
 }
