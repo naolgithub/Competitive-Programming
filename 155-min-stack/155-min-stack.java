@@ -1,4 +1,7 @@
 class MinStack {
+    
+    // Time Complexity:O(1)
+    // Space Complexity:O(2N)-->O(N)
     Stack<Integer> stack;
     Stack<Integer> minValueFinder;
     // initializing states inside constructor
