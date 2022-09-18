@@ -2,7 +2,7 @@ class MyStack {
     //TC of top():O(N)
     //TC of pop():O(N)
     //TC of push():O(1)
-    //SC of the two queues:O(2N)-->O(2N)
+    //SC of the two queues:O(2N)-->O(N)
   private Queue<Integer> q1;
   private Queue<Integer> q2;
     public MyStack() {
