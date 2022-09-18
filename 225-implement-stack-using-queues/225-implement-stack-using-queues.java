@@ -18,7 +18,7 @@ class MyStack {
             q1.remove();
         }
         //swap the names of two queues
-        //avoid copying all elements from q2 to q1.
+        //this avoids copying all elements from q2 to q1.
         Queue<Integer> q=q1;
         q1=q2;
         q2=q;
