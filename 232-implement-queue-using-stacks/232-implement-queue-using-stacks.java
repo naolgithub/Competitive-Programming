@@ -35,7 +35,6 @@ class MyQueue {
             n--;
         }
         int x=s1.peek();
-        //s1.pop();
         while(!s2.isEmpty()){
             s1.push(s2.peek());
             s2.pop();
