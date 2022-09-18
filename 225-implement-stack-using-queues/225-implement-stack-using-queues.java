@@ -1,11 +1,14 @@
 class MyStack {
+    //TC of top():O(N)
+    //TC of pop():O(N)
+    //TC of push():O(1)
+    //SC of the two queues:O(2N)-->O(2N)
   private Queue<Integer> q1;
   private Queue<Integer> q2;
     public MyStack() {
         q1=new LinkedList<>();
         q2=new LinkedList<>();
     }
-    
     public void push(int x) {
         q1.add(x);
     }
@@ -28,7 +31,7 @@ class MyStack {
     }
     
     public int top() {
-         int n=q1.size();
+        int n=q1.size();
         while(n>1){
             int e=q1.peek();
             q2.add(e);
