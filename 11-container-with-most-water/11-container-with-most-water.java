@@ -5,6 +5,11 @@ class Solution {
         int maxArea=0;
         int alfa=0;
         int omega=height.length-1;
+        // consider like this 
+        //1.height represent the height of the water
+        //2.omega-alfa represent the base of the water
+        //3.The product of the height and omega-alfa give us an area
+        //4.To get the maximum area we have to iterate through the vertical lines by using Math.max() method
         while(alfa<omega){
             if(height[alfa]<height[omega]){
                 maxArea=Math.max(maxArea,height[alfa]*(omega-alfa));
