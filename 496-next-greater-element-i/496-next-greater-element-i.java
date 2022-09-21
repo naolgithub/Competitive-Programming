@@ -1,4 +1,5 @@
 class Solution {
+    // nick white youtube
     public int[] nextGreaterElement(int[] nums1, int[] nums2) {
         HashMap<Integer,Integer> nextGreater=new HashMap<>();
         Stack<Integer> stack=new Stack<>();
