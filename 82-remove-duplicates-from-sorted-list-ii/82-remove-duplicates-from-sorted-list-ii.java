@@ -10,24 +10,31 @@
  */
 class Solution {
     public ListNode deleteDuplicates(ListNode head) {
-        ListNode naolDummy=new ListNode(0,head);
-        ListNode prev=naolDummy;
-        while(head!=null){
-            
-            if(head.next!=null && head.val==head.next.val){
-                while(head.next!=null && head.val==head.next.val){
-                    head=head.next;
-                }
-                prev.next=head.next;
-            }
-            
-            else{
-                prev=prev.next;
-            }
-            
-            head=head.next;
-        }
+        // sentinel
+        ListNode sentinel = new ListNode(0, head);
+
+        // predecessor = the last node 
+        // before the sublist of duplicates
+        ListNode pred = sentinel;
         
-        return naolDummy.next;
+        while (head != null) {
+            // if it's a beginning of duplicates sublist 
+            // skip all duplicates
+            if (head.next != null && head.val == head.next.val) {
+                // move till the end of duplicates sublist
+                while (head.next != null && head.val == head.next.val) {
+                    head = head.next;    
+                }
+                // skip all duplicates
+                pred.next = head.next;     
+            // otherwise, move predecessor
+            } else {
+                pred = pred.next;    
+            }
+                
+            // move forward
+            head = head.next;    
+        }  
+        return sentinel.next;
     }
 }
