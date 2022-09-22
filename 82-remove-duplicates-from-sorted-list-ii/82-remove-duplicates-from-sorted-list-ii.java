@@ -9,6 +9,7 @@
  * }
  */
 class Solution {
+    // from solutions for the sake of COMMENT
     public ListNode deleteDuplicates(ListNode head) {
         // sentinel
         ListNode sentinel = new ListNode(0, head);
