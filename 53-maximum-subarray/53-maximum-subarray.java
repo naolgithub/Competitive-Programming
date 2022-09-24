@@ -1,7 +1,7 @@
 class Solution {
     // using Kadane's Algorithm---dynamic programming
     // TC:O(N)
-    // SC:O(N)
+    // SC:O(1)
     public int maxSubArray(int[] nums) {
         int maxSum=nums[0];
         int currentSum=maxSum;
