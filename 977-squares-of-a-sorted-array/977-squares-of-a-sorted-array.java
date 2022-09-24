@@ -1,14 +1,15 @@
 class Solution {
     public int[] sortedSquares(int[] nums) {
-        List<Integer> list=new ArrayList<>();
+        //THIS IS INEFFICIENT SINCE IT TAKES
+        // TIME COMPLEXITY :O(NlogN)
+        // space complexity :O(N)
+        //int[] squaredArray=new int[nums.length];
+        int count=0;
         for(int i=0;i<nums.length;i++){
-            list.add(nums[i]*nums[i]);
+            nums[count++]=nums[i]*nums[i];
         }
-        int[] squaredArray=new int[list.size()];
-        for(int i=0;i<nums.length;i++){
-           squaredArray[i]=list.get(i);
-        }
-        Arrays.sort(squaredArray);
-        return squaredArray;
+        //now sort the squaredArray
+        Arrays.sort(nums);
+        return nums;
     }
 }
