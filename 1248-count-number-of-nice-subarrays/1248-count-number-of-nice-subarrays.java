@@ -1,3 +1,7 @@
+
+/*
+https://leetcode.com/problems/count-number-of-nice-subarrays/discuss/2619352/JAVA-solution-or-Current-problem-transformed-to-Problem-560-or-HashMap
+*/
 class Solution {
     public int numberOfSubarrays(int[] nums, int k) {
         int total = 0;
