@@ -4,7 +4,7 @@ class Solution {
             2.Otherwise, change the first letter to uppercase and the remaining letters to lowercase.
             */
     public String capitalizeTitle(String title) {
-        String[] strArr = title.split("\\s+");
+        String[] strArr = title.split(" ");
         StringBuilder result = new StringBuilder();
         for (String currentStr : strArr) {
             if (currentStr.length() > 2) {
