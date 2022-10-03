@@ -1,6 +1,7 @@
 class Solution {
     public double average(int[] salary) {
-        
+        // METHOD ONE TC:O(N)
+        //            SC:O(1)
         int minSalary = Integer.MAX_VALUE;
         int maxSalary = Integer.MIN_VALUE;
         int sumSalary = 0;
