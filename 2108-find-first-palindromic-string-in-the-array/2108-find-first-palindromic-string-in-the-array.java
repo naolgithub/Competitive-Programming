@@ -1,5 +1,6 @@
 class Solution {
     public String firstPalindrome(String[] words) {
+        // two pointers and string
         for(String word : words) {
             if(isPalindrome(word)) return word;
         }
