@@ -4,7 +4,7 @@ class Solution {
     */
     public boolean isPalindrome(String s) {
         //METHOD ONE
-        s = s.toLowerCase();
+       /* s = s.toLowerCase();
         StringBuilder stringBuilder = new StringBuilder();
         // adding only numbers and letters to stringBuilder
         for(int i = 0; i<s.length(); i++){
@@ -16,12 +16,12 @@ class Solution {
         for(int i = 0; i<stringBuilder.length()/2; i++){
             if(stringBuilder.charAt(i)!= stringBuilder.charAt(n-i))return false;
         }
-         return true;   
+         return true;*/   
         //METHOD TWO
-        /*
+        
         String actual = s.replaceAll("[^A-Za-z0-9]", "").toLowerCase();
         String reversed = new StringBuffer(actual).reverse().toString();
         return actual.equals(reversed);
-        */
+        
     }
 }
