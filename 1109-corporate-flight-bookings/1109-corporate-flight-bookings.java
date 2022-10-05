@@ -6,11 +6,14 @@ class Solution {
             int start = current[0]-1;
             int end = current[1];
             int value = current[2];
-            
-            for(int i = start ; i < end ; i++){
-                result[i] += value;
+            result[start] += value;
+            if(end < n){
+                result[end] -= value;
             }
         }
-        return result;   
+        for(int i = 1 ; i < n ; i++){
+            result[i] += result[i-1];
+        }
+        return result; 
     }
 }
