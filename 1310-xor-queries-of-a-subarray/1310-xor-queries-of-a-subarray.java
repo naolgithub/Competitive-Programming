@@ -31,13 +31,13 @@ class Solution {
         for(int i = 1 ; i<arr.length ; i++) {
             xorArray[i] = arr[i] ^ xorArray[i-1];
         }
-        int ans[] = new int[queries.length];
+        int answer[] = new int[queries.length];
         for(int i = 0; i < queries.length ; i++) {
-            int l = queries[i][0];
-            int r = queries[i][1];
-            if(l == 0) ans[i] = xorArray[r];
-            else ans[i] = xorArray[r] ^ xorArray[l-1];
+            int left = queries[i][0];
+            int right = queries[i][1];
+            if(left == 0) answer[i] = xorArray[right];
+            else answer[i] = xorArray[right] ^ xorArray[left-1];
         }
-        return ans;
+        return answer;
     }
 }
