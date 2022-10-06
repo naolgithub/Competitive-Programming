@@ -1,3 +1,6 @@
+/*
+https://leetcode.com/problems/merge-sorted-array/discuss/2656760/Java-Solution-or-3-Approach
+*/
 // Algorithm -
 /*
 1. Initialize i, j & k
