@@ -1,0 +1,26 @@
+class Solution {
+    public int minSubArrayLen(int target, int[] nums) {
+        int windowStart=0;
+        int windowSum =0;
+        int minLengthSoFar=Integer.MAX_VALUE;
+
+        for(int windowEnd=0;windowEnd<nums.length;windowEnd++){
+            // grow the window
+            windowSum+=nums[windowEnd];
+            //is windowSum>=target ?
+             //if not,continue iteration,grow the window
+             //if yes,shrink the window(until windowSum<target again)...the reason we are shrinking the window is just to find the minimumSubArray length whose sum is equal to target
+            while(windowSum>=target){
+                // to shrink window,decrement windowStart,remove the first element from new shrunken window
+                int currentWindowLength=windowEnd-windowStart+1;
+                minLengthSoFar=Math.min(minLengthSoFar,currentWindowLength);
+                windowSum-=nums[windowStart];
+                windowStart++;
+            }
+            }
+            // if we havent got any minimum subarray length whose sum is equal to or greater than target return zero
+            if(minLengthSoFar==Integer.MAX_VALUE) return 0;
+            //if we have got any minimum subarray length return minLengthSoFar
+            return minLengthSoFar;       
+    }
+}
