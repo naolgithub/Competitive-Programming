@@ -40,7 +40,7 @@ class Solution {
         {
             sb.append(count);
         }
-     
+     /*The compressed string s should not be returned separately, but instead, be stored in the input character array chars.*/
         for(int i=0;i<sb.length();i++)
         {
             chars[i]=sb.charAt(i);
