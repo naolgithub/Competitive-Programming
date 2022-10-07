@@ -19,21 +19,20 @@ So string is compressed now we will copy it to char array . and return its lengt
 class Solution {
     public int compress(char[] chars) {
         StringBuilder sb = new StringBuilder();
-        int  n = chars.length;
         int count = 1;
         sb.append(chars[0]);
-        for(int i=1;i<n;i++)
+        for(int i=1;i<chars.length;i++)
         {
-           char curr = chars[i];
-           char prev = chars[i-1];
-           if(prev==curr)
+           char currentCharacter = chars[i];
+           char previousCharacter = chars[i-1];
+           if(previousCharacter==currentCharacter)
            {
                count++;
            }
-           if(prev!=curr)
+           if(previousCharacter!=currentCharacter)
            {   if(count>1)
                sb.append(count);
-               sb.append(curr);
+               sb.append(currentCharacter);
                count = 1;
            }
         }
