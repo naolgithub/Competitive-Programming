@@ -1,3 +1,7 @@
+// link :https://leetcode.com/problems/find-median-from-data-stream/discuss/1506078/Java-Detailed-Code-Solutions-for-Follow-Ups
+
+
+
 /**
  * Using two heaps
  * 
