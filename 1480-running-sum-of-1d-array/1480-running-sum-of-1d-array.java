@@ -1,21 +1,12 @@
 class Solution {
     public int[] runningSum(int[] nums) {
         /*
-    We define a running sum of an array 
-    as runningSum[i] = sum(nums[0]…nums[i])
+        Time Complexity:O(N)
+        Space Complexity:O(1)
         */
-        /*
-        Time Complexity:O(N^2)
-        Space Complexity:O(N)
-        */
-        int[] result=new int[nums.length];
-        for(int i=0;i<nums.length;i++){
-            int sum=0;
-           for(int j=0;j<=i;j++){
-               sum+=nums[j];
-               result[i]=sum;
-           }
+        for(int i=1;i<nums.length;i++){
+            nums[i]+=nums[i-1];
         }
-        return result;
+        return nums;
     }
 }
