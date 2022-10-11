@@ -28,7 +28,7 @@ class Solution {
     return nums;
     */
         //Method Two 
-        //Time Complexity:O(N)
+        //Time Complexity:O(NlogN)
         //Space Complexity:O(N)
         //after sorting of evenodd, the result contains:
     //even indices are sorted in increasing order
