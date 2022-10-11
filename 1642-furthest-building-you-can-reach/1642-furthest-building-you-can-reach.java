@@ -1,4 +1,6 @@
 class Solution {
+    // link:https://leetcode.com/problems/furthest-building-you-can-reach/discuss/2176616/Visual-Explanation-or-JAVA-Max-Heap
+    
     public int furthestBuilding(int[] heights, int bricks, int ladders) {
 	PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder());
 
