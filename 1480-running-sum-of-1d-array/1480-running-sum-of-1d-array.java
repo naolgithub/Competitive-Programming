@@ -4,6 +4,10 @@ class Solution {
     We define a running sum of an array 
     as runningSum[i] = sum(nums[0]…nums[i])
         */
+        /*
+        Time Complexity:O(N^2)
+        Space Complexity:O(N)
+        */
         int[] result=new int[nums.length];
         for(int i=0;i<nums.length;i++){
             int sum=0;
