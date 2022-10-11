@@ -1,8 +1,8 @@
 class Solution {
-    //METHOD ONE:
-   // Time Complexity:O(N^2)
-   // Space Complexity:O(1)
     public int[] sortEvenOdd(int[] nums) {
+        //METHOD ONE
+        // Time Complexity:O(N^2)
+        // Space Complexity:O(1)
     //after sorting of evenodd, the answer contains:
     //even indices are sorted in increasing order
     // odd indices are sorted in decreasing order
