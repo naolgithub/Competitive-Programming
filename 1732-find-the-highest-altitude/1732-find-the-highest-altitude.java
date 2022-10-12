@@ -1,4 +1,5 @@
 class Solution {
+    // METHOD ONE : TC:O(N^2) and SC:O(1)
     // similar to (1480.Running sum of 1d array)
     public int largestAltitude(int[] gain) {
         int max=0;//Taking the initial max as 0 since biker starts his trip on point 0 with altitute equal to 0
