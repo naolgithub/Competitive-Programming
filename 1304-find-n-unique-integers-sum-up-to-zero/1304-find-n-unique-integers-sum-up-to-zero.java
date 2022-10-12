@@ -3,6 +3,13 @@ class Solution {
     // using two pointers 
     //Return an array where the values are symmetric.(+x , -x).
        int[] result=new int[n];
+        /*
+        HINT:
+        int[] array=new int[2];
+        array[0]=7;
+        array[1]=4;
+        System.out.print(array[2]); output is 0 because java do this by default
+        */
         int start = 0;
         int end = n - 1;
         while(start < end){
@@ -11,6 +18,7 @@ class Solution {
             start++;
             end--;
         }
+       
         return result;
     }
 }
