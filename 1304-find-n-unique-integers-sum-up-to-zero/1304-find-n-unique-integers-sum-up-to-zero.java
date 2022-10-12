@@ -1,5 +1,6 @@
 class Solution {
     public int[] sumZero(int n) {
+        // using two pointers 
        int[] result=new int[n];
         int start = 0;
         int end = n - 1;
