@@ -1,4 +1,6 @@
 class Solution {
+    
+    //https://leetcode.com/problems/subarray-product-less-than-k/discuss/2218223/JAVA-oror-Simplified-Solution-oror-Brute-Force-And-Optimized-Both-Solution
 public int numSubarrayProductLessThanK(int[] nums, int k) {
    /*
 As per given constrant : k>=0 and values in array can be in between 0 to 1000.
