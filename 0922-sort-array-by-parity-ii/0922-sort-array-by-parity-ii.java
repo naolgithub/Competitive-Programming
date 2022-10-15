@@ -1,5 +1,8 @@
 class Solution {
     public int[] sortArrayByParityII(int[] nums) {
+        //Time Complexity:O(NlogN)
+        //Space Complexity:O(N)
+        // Not optimal solution
         List<Integer> even=new ArrayList();
         List<Integer> odd=new ArrayList();
     for(Integer num:nums){
