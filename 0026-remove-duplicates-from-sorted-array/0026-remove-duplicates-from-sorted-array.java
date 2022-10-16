@@ -13,7 +13,6 @@ class Solution {
                 set.remove(nums[i]);
             }
         }
-        //int[] array=new int[list.size()];
         for(int i=0;i<list.size();i++){
             nums[i]=list.get(i);
         }
