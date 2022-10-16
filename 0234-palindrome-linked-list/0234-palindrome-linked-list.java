@@ -9,6 +9,7 @@
  * }
  */
 class Solution {
+    /*
     private ListNode reverseListNode(ListNode head){
         ListNode current=head;
         ListNode next=null;
@@ -37,5 +38,21 @@ class Solution {
             }
         }
         return true;
+        */
+    public boolean isPalindrome(ListNode head) {
+        Stack<Integer> stack=stackOfListNode(head);
+        while(!stack.isEmpty() && head!=null){
+            if(head.val!=stack.pop()) return false;
+            head=head.next;
+        }
+        return true;
+    }
+    private Stack<Integer> stackOfListNode(ListNode head){
+        Stack<Integer> stack=new Stack();
+        while(head!=null){
+            stack.push(head.val);
+            head=head.next;
+        }
+        return stack;
     }
 }
