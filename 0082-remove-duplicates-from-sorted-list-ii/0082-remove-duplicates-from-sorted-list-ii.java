@@ -18,7 +18,7 @@ class Solution {
         // before the sublist of duplicates
         ListNode pred = sentinel;
         
-        while (head != null) {
+        while (head != null && head.next!=null) {
             // if it's a beginning of duplicates sublist 
             // skip all duplicates
             if (head.next != null && head.val == head.next.val) {
