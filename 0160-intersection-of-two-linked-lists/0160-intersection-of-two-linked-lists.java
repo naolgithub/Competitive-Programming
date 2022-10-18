@@ -25,6 +25,32 @@ public class Solution {
         }
         return null;
         
+        /*
+        //Solving Using stack
+        Stack<ListNode> stackA= new Stack<>();
+        Stack<ListNode> stackB= new Stack<>();
+        ListNode tempA=headA;
+        ListNode tempB=headB;
+        while(tempA!=null){
+            stackA.push(tempA);
+            tempA=tempA.next;
+        }
+        while(tempB!=null){
+            stackB.push(tempB);
+            tempB=tempB.next;
+        }
+        ListNode prev=null;
+        while(!stackA.isEmpty()&&!stackB.isEmpty()){
+            if(stackA.peek()==stackB.peek()){
+                prev=stackB.peek();
+                
+            }
+            else{
+                break;
+            }
+        }
+        return prev;
+        */
             
     }
 }
