@@ -1,6 +1,8 @@
 class Solution {
     public void sortColors(int[] nums) {
-     int numberOfZeroes=0;
+            //Time Complexity:O(N)
+            //Space Complexity:O(1)
+            int numberOfZeroes=0;
             int numberOfOnes=0;
             int numberOfTwos=0;
             for(int i=0;i<nums.length;i++){
