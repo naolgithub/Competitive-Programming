@@ -9,9 +9,9 @@
  * }
  */
 class Solution {
-        ListNode anotherHead;
-        ListNode tail;
-        private void buildList(int data){
+        private ListNode anotherHead;
+        private ListNode tail;
+        private void buildListNode(int data){
                 ListNode newNode=new ListNode(data);
                 if(anotherHead==null){
                         anotherHead=newNode;
@@ -39,7 +39,7 @@ class Solution {
                     tempTwo=tempTwo.next;
             }
             for(int i=0;i<list.size();i++){
-                    buildList(list.get(i));
+                    buildListNode(list.get(i));
             }
             return anotherHead;
     }
