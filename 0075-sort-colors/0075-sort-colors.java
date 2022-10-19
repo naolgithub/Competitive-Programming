@@ -1,5 +1,21 @@
 class Solution {
     public void sortColors(int[] nums) {
+            /*
+            Method One
+            Time Complexity:O(N^2)
+            Space Complexity:O(1)
+    // using bubble sorting algorithm
+        for(int i=0;i<nums.length-1;i++){
+            for(int j=0;j<nums.length-1-i;j++){
+                if(nums[j]>nums[j+1]){
+                    int temp=nums[j];
+                    nums[j]=nums[j+1];
+                    nums[j+1]=temp;
+                } 
+            }
+        }
+            */
+            //Method Two
             //Time Complexity:O(N)
             //Space Complexity:O(1)
             int numberOfZeroes=0;
