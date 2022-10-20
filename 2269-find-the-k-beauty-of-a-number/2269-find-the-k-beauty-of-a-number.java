@@ -8,6 +8,7 @@ class Solution {
 	// in range of (start) to (end-1).
         String subString=s.substring(i,i+k);
         int contiguousNumber = Integer.parseInt(subString);
+          //since 0 is not a divisor of any value,contiguousNumber must be greater than 0
         if(contiguousNumber > 0 && num%contiguousNumber==0){
             count++;
         }
