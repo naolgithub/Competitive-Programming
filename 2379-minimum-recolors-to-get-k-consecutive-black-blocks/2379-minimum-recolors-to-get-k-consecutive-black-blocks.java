@@ -5,16 +5,18 @@ class Solution {
 Note: leftBlockBound and rightBlockBound are the lower and upper bounds of the sliding window.
 */
     public int minimumRecolors(String blocks, int k) {
-       int min = Integer.MAX_VALUE;
-        int lo = -1;
-        int white = 0;
-        for (int hi = 0; hi < blocks.length(); ++hi) {
-            white += blocks.charAt(hi) == 'W' ? 1 : 0;
-            if (hi - lo >= k) { // the window reaches size of k.
-                min = Math.min(min, white); // update  minimum.
-                // slide 1 step right the lower bound of the sliding
-                // window and update the value of white count.
-                white -= blocks.charAt(++lo) == 'W' ? 1 : 0;
+        //change blocks characters to UpperCase.
+        blocks=blocks.toUpperCase();
+        int min = Integer.MAX_VALUE;
+        int leftBlockBound = -1;
+        int sumOfWhiteBlocks=0;
+        for (int rightBlockBound = 0; rightBlockBound < blocks.length(); rightBlockBound++) {
+            sumOfWhiteBlocks +=blocks.charAt(rightBlockBound) == 'W' ? 1 : 0;
+            while (rightBlockBound - leftBlockBound >= k) { // the window reaches size of k.
+                min = Math.min(min, sumOfWhiteBlocks); // update  minimum.
+                // slide 1 step right the leftBlockBound of the sliding
+                // window and update the value of sumOfWhiteBlocks count.
+                sumOfWhiteBlocks -= blocks.charAt(++leftBlockBound) == 'W' ? 1 : 0;
             }
         }
         return min;
