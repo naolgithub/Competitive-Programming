@@ -12,7 +12,7 @@ Note: leftBlockBound and rightBlockBound are the lower and upper bounds of the s
         int sumOfWhiteBlocks=0;
         for (int rightBlockBound = 0; rightBlockBound < blocks.length(); rightBlockBound++) {
             sumOfWhiteBlocks +=blocks.charAt(rightBlockBound) == 'W' ? 1 : 0;
-            while (rightBlockBound - leftBlockBound >= k) { // the window reaches size of k.
+            if (rightBlockBound - leftBlockBound >= k) { // the window reaches size of k.
                 min = Math.min(min, sumOfWhiteBlocks); // update  minimum.
                 // slide 1 step right the leftBlockBound of the sliding
                 // window and update the value of sumOfWhiteBlocks count.
