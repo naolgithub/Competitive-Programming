@@ -8,8 +8,8 @@ class Solution {
             if(nums[i]==0) counter=0;
             else{
                 counter++;
-                maxLength=Math.max(maxLength,counter);
             }
+            maxLength=Math.max(maxLength,counter);
         }
         return maxLength;
     }
