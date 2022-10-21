@@ -2,7 +2,7 @@ class Solution {
     /*
     Maintain a sliding window of size k, keep updating the count of W out of it and find the minimum.
 
-Note: leftBlockBound and rightBlockBound are the lower and upper bounds of the sliding window.
+Note: leftBlockBound and rightBlockBound are the lower and upper bounds of the sliding window excluding leftBlockBound and including rightBlockBound.
 */
     public int minimumRecolors(String blocks, int k) {
         //change blocks characters to UpperCase.
