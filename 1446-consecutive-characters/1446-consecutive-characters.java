@@ -3,7 +3,7 @@ class Solution {
         /*
         In other words, we need to find the Longest Substring with the same characters.
         */
-        int maxLen = 1;
+        int maxLen = 1;//The Longest minimum Substring with the same characters is one.
         int counter = 1;
         for(int i = 0;i<s.length()-1;i++){
              // if currentCharacter(s.charAt(i)) is same as nextCharacter(s.charAt(i+1)), increase the counter by one
