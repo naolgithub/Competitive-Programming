@@ -1,5 +1,8 @@
 class Solution {
-    public int maxScore(int[] cardPoints, int k) {
+    //https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/discuss/2197791/Reframing-The-Question-or-JAVA-Explained
+    public int maxScore(int[] cardPoints, int k) { /*
+    The question is asking us to find the maximum sum of values at the left and right edges of the array. More specifically, it's asking us to find the max sum of k values at the edges. If we were to reword the question, we're essentially asked to find the minimum subarray sum of length n - k. Once we find this, we simply subtract this from the total sum and this would be our answer.
+    */
         int n = cardPoints.length;
         int totalSum = 0;
         int minSubarray = 0;
