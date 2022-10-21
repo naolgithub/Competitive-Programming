@@ -5,7 +5,7 @@ class Solution {
         */
         int count = 0;
         int maxCount = Integer.MIN_VALUE;
-        char previousCharacter = ' ';
+        char previousCharacter = ' ';//you cant assign " " here since " " is a String and ' ' is a char
         for (int i = 0; i < s.length(); i++) {
             char currentCharacter = s.charAt(i);
             if (currentCharacter == previousCharacter) {
