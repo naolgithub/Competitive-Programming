@@ -7,7 +7,8 @@ Note: leftBlockBound and rightBlockBound are the lower and upper bounds of the s
     public int minimumRecolors(String blocks, int k) {
        int min = Integer.MAX_VALUE;
         int lo = -1;
-        for (int hi = 0, white = 0; hi < blocks.length(); ++hi) {
+        int white = 0;
+        for (int hi = 0; hi < blocks.length(); ++hi) {
             white += blocks.charAt(hi) == 'W' ? 1 : 0;
             if (hi - lo >= k) { // the window reaches size of k.
                 min = Math.min(min, white); // update  minimum.
