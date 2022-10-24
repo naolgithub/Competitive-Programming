@@ -14,6 +14,8 @@ class Solution {
 	return false;
         */
         //Approach Two
+        // sliding window and HashSet
+        //tc:O(N) and sc:O(N)
         Set<Integer> slidingWindowHash = new HashSet();
         for (int i = 0; i < nums.length; i++) {
             if (slidingWindowHash.contains(nums[i])) {
