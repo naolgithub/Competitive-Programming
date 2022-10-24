@@ -1,5 +1,6 @@
 class Solution {
     public boolean containsNearbyDuplicate(int[] nums, int k) {
+      /* Approach One
         //using HashMap 
         //tc:O(N) and sc:O(N)
        Map<Integer, Integer> map = new HashMap<>();
@@ -11,5 +12,19 @@ class Solution {
 	}
 
 	return false;
+        */
+        //Approach Two
+        Set<Integer> slidingWindowHash = new HashSet();
+        for (int i = 0; i < nums.length; i++) {
+            if (slidingWindowHash.contains(nums[i])) {
+                return true;
+            }
+            slidingWindowHash.add(nums[i]);
+            
+            if (i >= k) {
+                slidingWindowHash.remove(nums[i - k]);
+            }
+        }
+        return false;
     }
 }
