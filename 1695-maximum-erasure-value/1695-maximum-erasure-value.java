@@ -1,6 +1,6 @@
 class Solution {
     public int maximumUniqueSubarray(int[] nums) {
-          // using hashset
+          // using hashset and two pointer technique
           int start = 0;
           int end = 0;
           int sum = 0;
