@@ -13,6 +13,7 @@ class Solution {
                     count++;
                      }
                 wordLengthSoFar++;
+                //we assign to maxLen iff we see all the vowel letters in ascending order(or if count is 5)
                 if(count == 5){
                     maxLen = Math.max(maxLen, wordLengthSoFar);
                        }
