@@ -23,6 +23,8 @@ class Solution {
             }
             else{
                 stack.push(Integer.valueOf(token));
+                //OR
+                //stack.push(Integer.parseInt(token));
             }
         }
         return stack.pop();
