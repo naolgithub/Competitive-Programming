@@ -22,15 +22,17 @@ map[8]=>4
         
         Arrays.sort(copy);
         
-        for (int i = 0; i < nums.length; i++) {
+        for (int i = 0; i < copy.length; i++) {
             map.putIfAbsent(copy[i], i);
         }
         
         for (int i = 0; i < nums.length; i++) {
             copy[i] = map.get(nums[i]);
+            //nums[i] = map.get(nums[i]);
         }
         
         return copy;
+        //return nums;
  
     }
 }
