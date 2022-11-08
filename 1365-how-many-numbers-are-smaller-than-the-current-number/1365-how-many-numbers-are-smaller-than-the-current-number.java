@@ -17,6 +17,10 @@ map[8]=>4
         4.We re-use our copy array to get our result, we iterate over original array, and get counts from the map.
 [4,0,1,1,3]
         */
+        /*
+        how to copy an array in java
+        https://www.softwaretestinghelp.com/java-copy-array/
+        */
        Map<Integer, Integer> map = new HashMap<>();
         int[] copy = nums.clone();
         
