@@ -1,38 +1,31 @@
 class Solution {
     public boolean backspaceCompare(String s, String t) {
         /*
-        Using stack
-        Time Complexity: O(N+M),where M and N are the lengths of s and t respectively
-        Space Complexity:O(N+M)
+        Using StringBuilder
+        Time Complexity: O(N+M)
+        Space Complexity:O(N+M),where N and M are the s and t lengths respectively.
         */
-        Stack<Character> stackS=new Stack();
-        Stack<Character> stackT=new Stack();
-        for(int i=0;i<s.length();i++){
-             if(s.charAt(i)!='#') {
-                stackS.push(s.charAt(i));
+       StringBuilder sbS = new StringBuilder();
+       StringBuilder sbT = new StringBuilder();
+        for (char c : s.toCharArray()) {
+            if (c != '#') {
+                sbS.append(c);
             }
-            else{
-                if(!stackS.isEmpty()) stackS.pop();
+            //if you see a '#' decrease sbS length by one
+            else if (sbS.length() != 0) {
+                sbS.setLength(sbS.length() - 1);
             }
         }
         
-        for(int i=0;i<t.length();i++){
-            if(t.charAt(i)!='#') {
-                stackT.push(t.charAt(i));
+        for (char c : t.toCharArray()) {
+            if (c != '#') {
+                sbT.append(c);
             }
-            else{
-                if(!stackT.isEmpty()) stackT.pop();
-            }
-        }
-        //checking if size of stackS and stackT are equal or not
-        if (stackS.size() != stackT.size()) return false;
-        //while removing the top characters checking whether the top characters of stackS and stackT are equal or not
-        while (!stackS.isEmpty() && !stackT.isEmpty()) {
-            if (stackS.pop() != stackT.pop()) {
-                return false;
+            //if you see a '#' decrease sbT length by one
+            else if (sbT.length() != 0) {
+                sbT.setLength(sbT.length() - 1);
             }
         }
-        // just finally return true
-        return true;
+        return sbS.toString().equals(sbT.toString());
     }
 }
