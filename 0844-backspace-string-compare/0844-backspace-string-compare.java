@@ -2,8 +2,8 @@ class Solution {
     public boolean backspaceCompare(String s, String t) {
         /*
         Using stack
-        Time Complexity: O(N)
-        Space Complexity:O(N)
+        Time Complexity: O(N+M),where M and N are the lengths of s and t respectively
+        Space Complexity:O(N+M)
         */
         Stack<Character> stackS=new Stack();
         Stack<Character> stackT=new Stack();
