@@ -1,10 +1,10 @@
 class Solution {
     public int pivotInteger(int n) {
-        /*
+      /*
         Using prefix and suffix sum arrays
         Time Complexity:O(N)
         Space Complexity:O(N)
-        */
+        
         int[] left=new int[n];
         int[] right=new int[n];
         for(int i=0;i<n;i++){
@@ -22,6 +22,22 @@ class Solution {
         for(int i=0;i<n;i++){
             if(left[i]==right[i]) return i+1;
         }
+        return -1;
+    */
+        
+        /*
+        Using prefix sum only
+        Time Complexity:O(N)
+        Space Complexity:O(1)
+        */
+        int leftSum = 0;
+        int totalSum = n * (n + 1) / 2;
+        for (int i = 1; i <=n; i++) {
+            leftSum += i;
+            int rightSum = totalSum - leftSum +i;
+            if (leftSum == rightSum) return i;
+        }
+
         return -1;
     }
 }
