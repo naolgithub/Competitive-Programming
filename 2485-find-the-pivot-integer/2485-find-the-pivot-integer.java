@@ -29,7 +29,7 @@ class Solution {
         Using prefix sum only
         Time Complexity:O(N)
         Space Complexity:O(1)
-        */
+        
         int leftSum = 0;
         int totalSum = n * (n + 1) / 2;
         for (int i = 1; i <=n; i++) {
@@ -38,6 +38,18 @@ class Solution {
             if (leftSum == rightSum) return i;
         }
 
+        return -1;
+        */
+        
+        /*
+        using only math
+        Time complexity:O(N)
+        Space Complexity:O(1)
+        */
+        int totalSum=n*(n+1)/2; //--->>using math
+        for(int i=1;i<=n;i++){
+            if(i*i==totalSum) return i;
+        }
         return -1;
     }
 }
