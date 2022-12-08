@@ -1,5 +1,6 @@
 class Solution {
     public int lengthOfLongestSubstring(String s) {
+       /*
         // Define the character range
         int CHAR_RANGE = 128;
          // base case
@@ -36,6 +37,48 @@ class Solution {
             }
         }
         return s.substring(begin,end+1).length();
-        
+        */
+        Set<Character> set=new HashSet();
+        int longestSubstring=0;
+        int leftPointer=0;
+        int rightPointer=0;
+        while(rightPointer<s.length()){
+            if(!set.contains(s.charAt(rightPointer))){
+                set.add(s.charAt(rightPointer));
+                longestSubstring=Math.max(longestSubstring,set.size());
+                rightPointer++;
+            }
+            else if(set.contains(s.charAt(leftPointer))){
+                set.remove(s.charAt(leftPointer));
+                leftPointer++;
+            }
+        }
+        return longestSubstring;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
