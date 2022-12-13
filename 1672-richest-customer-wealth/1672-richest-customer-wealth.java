@@ -5,8 +5,8 @@ class Solution {
             int sum=0;
             for(int column=0;column<accounts[row].length;column++){
                 sum+=accounts[row][column];
-                max=Math.max(max,sum);
             }
+            max=Math.max(max,sum);
         }
         return max;
     }
