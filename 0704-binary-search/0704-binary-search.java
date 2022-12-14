@@ -1,5 +1,6 @@
 class Solution {
     public int search(int[] nums, int target) {
+        //Using recursion
         int start=0;
         int end=nums.length-1;
         return binarySearch(nums,target,start,end);
