@@ -16,6 +16,7 @@ class Solution {
             return binarySearch(array,target,start,middle-1);
         }
         /*
+        Using just iteration/loop
         int left=0;
         int right=nums.length-1;
         while(left<=right){
