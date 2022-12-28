@@ -6,8 +6,10 @@ class Solution {
         2.If the array has n elements, the answer will be n - count(min(nums)) - count(max(nums))
         3.This formula will not work in case the array has all the elements equal, why?
         */
-        java.util.Arrays.sort(nums);
+        Arrays.sort(nums);
+        //if the array has all the elements equal.
         if(nums[nums.length-1]==nums[0]) return 0;
+        
         int min=Integer.MAX_VALUE;
         int max=Integer.MIN_VALUE;
         for(int i=0;i<nums.length;i++){
