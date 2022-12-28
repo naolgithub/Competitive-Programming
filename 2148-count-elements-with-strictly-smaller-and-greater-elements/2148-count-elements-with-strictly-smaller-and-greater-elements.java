@@ -1,5 +1,11 @@
 class Solution {
     public int countElements(int[] nums) {
+        //considering all the given hints
+        /*
+        1.All the elements in the array should be counted except for the minimum and maximum elements.
+        2.If the array has n elements, the answer will be n - count(min(nums)) - count(max(nums))
+        3.This formula will not work in case the array has all the elements equal, why?
+        */
         java.util.Arrays.sort(nums);
         if(nums[nums.length-1]==nums[0]) return 0;
         int min=Integer.MAX_VALUE;
