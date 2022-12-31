@@ -1,16 +1,6 @@
 class Solution {
-    public int[] searchRange(int[] nums, int target) {
-        int[] ans={-1,-1};
-        //check for the first occurrence of the target
-        int firstOccurrence=search(nums,target,true);
-        //check for the last occurrence of the target
-        int lastOccurrence=search(nums,target,false);
-        ans[0]=firstOccurrence;
-        ans[1]=lastOccurrence;
-        return ans;
-    }
-    private int search(int[] nums,int target,boolean isFirstOccurrence){
-        int ans=-1;
+    private int search(int[] nums,int target,boolean findStartIndex){
+        int positionOfTarget=-1;
         int start=0;
         int end=nums.length-1;
         while(start<=end){
@@ -18,22 +8,26 @@ class Solution {
             if(target<nums[mid]) end=mid-1;
             else if(target>nums[mid]) start=mid+1;
             else{
-                ans=mid;
-                if(isFirstOccurrence){
+                //potential position of the target is found but we have got to find the first and last position of it.
+                positionOfTarget=mid;
+                if(findStartIndex==true){
                     end=mid-1;
                 }
-                else{
+                else {
                     start=mid+1;
                 }
             }
         }
-        return ans;
+        return positionOfTarget;
+    }
+    public int[] searchRange(int[] nums, int target) {
+        int[] firstAndLastPostionOfElementInSortedArray={-1,-1};
+        //finding the first position of the target. 
+        int firstPositionOfTarget=search(nums,target,true);
+        //finding the last position of the target.
+        int lastPositionOfTarget=search(nums,target,false);
+        firstAndLastPostionOfElementInSortedArray[0]=firstPositionOfTarget;
+        firstAndLastPostionOfElementInSortedArray[1]=lastPositionOfTarget;
+        return firstAndLastPostionOfElementInSortedArray;
     }
 }
-
-
-
-
-
-
-
