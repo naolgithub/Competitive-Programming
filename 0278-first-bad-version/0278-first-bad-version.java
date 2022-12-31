@@ -3,7 +3,7 @@
 
 public class Solution extends VersionControl {
     public int firstBadVersion(int n) {
-        int firstBadProduct=0;
+        int firstBadProduct=-1;
         int start=1;
         int end=n;
         while(start<=end){
