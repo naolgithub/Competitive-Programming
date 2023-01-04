@@ -1,5 +1,7 @@
 class Solution {
     public int longestMountain(int[] arr) {
+        //Time Complexity:O(N)
+        //space complexity:O(1)
         int longestmountain=0;
         //peak of the mountain cant be at the zeroth index.
         //peak point should have a lesser neighbor points.
