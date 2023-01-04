@@ -4,7 +4,8 @@ class Solution {
         //peak of the mountain cant be at the zeroth index.
         //peak point should have a lesser neighbor points.
         //first and last elements of an array cant be a peak point because peak of the mountain should have a lesser value neighbor points.
-        for(int i=1;i<=arr.length-2;){
+        int i=1;
+        while(i<=arr.length-2){
             //looking for neighbor of an element
             if(arr[i]>arr[i-1] && arr[i]>arr[i+1]){
                 //count must begin from one because we start counting from the peak of the mountain.
