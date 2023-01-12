@@ -2,7 +2,7 @@ class Solution {
     public int countStudents(int[] students, int[] sandwiches) {
         Queue<Integer> preferences = new LinkedList<>();
         for (int student: students) {
-            preferences.offer(student);
+            preferences.add(student);
         }
         int countRefused = 0;
         int current = 0;
@@ -12,7 +12,7 @@ class Solution {
                 countRefused = 0;
                 preferences.remove();
             } else {
-                preferences.offer(preferences.remove());
+                preferences.add(preferences.remove());
                 countRefused++;
             }
         }
