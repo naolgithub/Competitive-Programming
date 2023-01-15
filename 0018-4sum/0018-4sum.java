@@ -24,10 +24,10 @@ class Solution {
                     }
                 }
 
-                while (j + 1 < nums.length && nums[j] == nums[j + 1]) j++;
+                while (j < nums.length-1 && nums[j] == nums[j + 1]) j++;
             }
 
-            while (i + 1 < nums.length && nums[i] == nums[i + 1]) i++;
+            while (i < nums.length-1 && nums[i] == nums[i + 1]) i++;
         }
 
         return list;
