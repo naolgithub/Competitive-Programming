@@ -1,36 +1,35 @@
 class Solution {
     public List<List<Integer>> fourSum(int[] nums, int target) {
-       List<List<Integer>> ans = new ArrayList<>();
-        int n = nums.length;
-
+       List<List<Integer>> list = new ArrayList<>();
         Arrays.sort(nums);
 
-        for (int i = 0; i < n; i++) {
-            for (int j = i + 1; j < n; j++) {
+        for (int i = 0; i < nums.length; i++) {
+            for (int j = i + 1; j < nums.length; j++) {
 
-                long target2 = (long) target - (long) nums[i] - (long) nums[j];
-                int lo = j + 1, hi = n - 1;
+                long difference = (long) target - (long) nums[i] - (long) nums[j];
+                int start = j + 1;
+                int end = nums.length-1;
 
-                while (lo < hi) {
-                    int twoSum = nums[lo] + nums[hi];
+                while (start<end) {
+                    int sum = nums[start] + nums[end];
 
-                    if (twoSum < target2) lo++;
-                    else if (twoSum > target2) hi--;
+                    if (sum < difference) start++;
+                    else if (sum>difference) end--;
                     else {
-                        List<Integer> quad = Arrays.asList(nums[i], nums[j], nums[lo], nums[hi]);
-                        ans.add(quad);
+                        List<Integer> temp = Arrays.asList(nums[i], nums[j], nums[start], nums[end]);
+                        list.add(temp);
 
-                        while (lo < hi && nums[lo] == quad.get(2)) lo++;
-                        while (lo < hi && nums[hi] == quad.get(3)) hi--;
+                        while (start<end && nums[start] == temp.get(2)) start++;
+                        while (start < end && nums[end] == temp.get(3)) end--;
                     }
                 }
 
-                while (j + 1 < n && nums[j] == nums[j + 1]) j++;
+                while (j + 1 < nums.length && nums[j] == nums[j + 1]) j++;
             }
 
-            while (i + 1 < n && nums[i] == nums[i + 1]) i++;
+            while (i + 1 < nums.length && nums[i] == nums[i + 1]) i++;
         }
 
-        return ans;
+        return list;
     }
 }
