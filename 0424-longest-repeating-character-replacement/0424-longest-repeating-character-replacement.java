@@ -6,6 +6,7 @@ class Solution {
         Map<Character,Integer> map=new HashMap();
         int maxLength=0;
         int mostFrequent=0;
+        //mostFrequent-is the number of characters in our window right now that need to be replaced
         //finding the most frequent character replacement
         for(int windowEnd=0;windowEnd<array.length;windowEnd++){
             //expand the window
