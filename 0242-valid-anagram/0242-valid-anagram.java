@@ -30,6 +30,7 @@ class Solution {
         return true;
     }
     public boolean isAnagram(String s, String t) {
+        //the following code works only if inputs a-z characters
         if(s.length()!=t.length()) return false;
         int[] smap=new int[26];
         int[] tmap=new int[26];
