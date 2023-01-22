@@ -41,6 +41,7 @@ class Solution {
             smap[s.charAt(i + p.length()) - 'a']++;
             smap[s.charAt(i) - 'a']--;
         }
+        // checking whether the last window matches the pmap
         if (matches(pmap, smap)) list.add(s.length() - p.length());
         return list;
     }
