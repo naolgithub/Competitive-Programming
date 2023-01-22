@@ -24,18 +24,17 @@ class Solution {
 */
 class Solution {
     public int[] getAverages(int[] nums, int k) {
-        int N = nums.length;
-        int[] res = new int[N];
-        long sum = 0;
-        for (int i = 0; i < N; i++) {
-            if (i < k) res[i] = -1;            
-            sum += nums[i];
-            if (i >= 2*k) {
-                res[i - k] = (int)(sum / (2*k + 1));
-                sum -= nums[i - 2*k];
+        int[] result = new int[nums.length];
+        long currentSum = 0;
+        for (int windowEnd = 0; windowEnd < nums.length; windowEnd++) {
+            if (windowEnd < k) result[windowEnd] = -1;            
+            currentSum += nums[windowEnd];
+            if (windowEnd >= 2*k) {
+                result[windowEnd - k] = (int)(currentSum / (2*k + 1));
+                currentSum -= nums[windowEnd - 2*k];
             }
-			if (i >= N - k) res[i] = -1;
+			if (windowEnd >= nums.length - k) result[windowEnd] = -1;
         }
-        return res;
+        return result;
     }
 }
