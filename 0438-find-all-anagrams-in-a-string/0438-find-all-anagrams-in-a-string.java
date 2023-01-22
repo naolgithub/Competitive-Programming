@@ -1,3 +1,4 @@
+/*
 class Solution {
     private String sort(String s){
         char[] arrayOfCharacters=s.toCharArray();
@@ -18,3 +19,38 @@ class Solution {
         return list;
     }
 }
+*/
+
+
+
+
+
+
+class Solution {
+    public List<Integer> findAnagrams(String s, String p) {
+        List<Integer> list=new ArrayList();
+        if (p.length() > s.length()) return list;
+        int[] pmap = new int[26];
+        int[] smap = new int[26];
+        for (int i = 0; i < p.length(); i++) {
+            pmap[p.charAt(i) - 'a']++;
+            smap[s.charAt(i) - 'a']++;
+        }
+        for (int i = 0; i < s.length() - p.length(); i++) {
+            if (matches(pmap, smap)) list.add(i);
+            smap[s.charAt(i + p.length()) - 'a']++;
+            smap[s.charAt(i) - 'a']--;
+        }
+        if (matches(pmap, smap)) list.add(s.length() - p.length());
+        return list;
+    }
+    
+    public boolean matches(int[] s1map, int[] s2map) {
+        for (int i = 0; i < 26; i++) {
+            if (s1map[i] != s2map[i])
+                return false;
+        }
+        return true;
+    }
+}
+
