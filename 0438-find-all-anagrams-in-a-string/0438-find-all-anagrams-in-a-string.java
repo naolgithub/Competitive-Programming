@@ -43,6 +43,7 @@ class Solution {
         }
         // checking whether the last window matches the pmap
         if (matches(pmap, smap)) list.add(s.length() - p.length());
+        
         return list;
     }
     
