@@ -9,24 +9,20 @@
  * }
  */
 class Solution {
-    private ListNode anotherHead=null;
-    private ListNode tail=null;
-    private void build(int data){
-        ListNode newNode=new ListNode(data);
-        if(anotherHead==null){
-            anotherHead=newNode;
-            tail=newNode;
-        }
-        else{
-            tail.next=newNode;
-            tail=newNode;
-        }
-    }
     public ListNode removeElements(ListNode head, int val) {
-        while(head!=null){
-            if(head.val!=val) build(head.val);
-            head=head.next;
+        ListNode dummy=new ListNode(0);
+        dummy.next=head;
+        ListNode prev=dummy;
+        ListNode current=head;
+        while(current!=null){
+            if(current.val==val){
+                prev.next=current.next;
+            }
+            else{
+                prev=prev.next;
+            }
+            current=current.next;
         }
-        return anotherHead;
+       return dummy.next;
     }
 }
