@@ -10,6 +10,7 @@ class Solution {
         return countVowel;
     }
     public int[] vowelStrings(String[] words, int[][] queries) {
+        //Brute force approach
         int[] wordCount=new int[words.length];
         int[] result=new int[queries.length];
         for(int i=0;i<words.length;i++){
