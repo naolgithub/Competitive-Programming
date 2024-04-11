@@ -23,10 +23,6 @@ class Solution {
         } else if("Nov".equals(month)) {
             return "11";
         } 
-        // else if("Dec".equals(month)) {
-        //     return "12";
-        // } 
-        // return "00";
         else return "12";
     }    
 	public String reformatDate(String date) {
