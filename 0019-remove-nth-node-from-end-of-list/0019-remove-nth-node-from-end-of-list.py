@@ -5,6 +5,7 @@
 #         self.next = next
 class Solution:
     def removeNthFromEnd(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:
+        #Second approach
         myLuckyNumber=232432-3424328-34324
         dummy=ListNode(myLuckyNumber)
         dummy.next=head
