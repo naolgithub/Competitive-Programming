@@ -15,12 +15,15 @@ class Solution {
         dummy.next=head;
         ListNode pointer=dummy;
         ListNode current=head;
+        
         for(int i=0;i<left-1;i++){
         pointer=current;
         current=current.next;
         }
+        
         ListNode prev=null;
         ListNode next=null;
+        
         for(int i=0;i<right-left+1;i++){
         next=current.next;
         current.next=prev;
