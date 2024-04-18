@@ -11,7 +11,7 @@
 class Solution {
     private ListNode begin;
     private ListNode end;
-    private ListNode buildListNode(int value){
+    private void buildListNode(int value){
         ListNode newNode=new ListNode(value);
         if(begin==null){
             begin=newNode;
@@ -21,27 +21,58 @@ class Solution {
             end.next=newNode;
             end=newNode;
         }
-        return begin;
     }
     public ListNode rotateRight(ListNode head, int k) {
         //Optimized Approach
-        int sizeOfListNode=1;
-        ListNode findLengthListNode=head;
+        // int sizeOfListNode=1;
+        // ListNode findLengthListNode=head;
+        // if(head==null) return head;
+        // while(findLengthListNode.next!=null){
+        //     sizeOfListNode++;
+        //     findLengthListNode=findLengthListNode.next;
+        // }
+        // k=k%sizeOfListNode;
+        // if(k==0) return head;
+        // ListNode current=head;
+        // for(int i=0;i<sizeOfListNode-k-1;i++){
+        //     current=current.next;
+        // }
+        // ListNode start=current.next;
+        // current.next=null;
+        // findLengthListNode.next=head;
+        // return start;
+        
+        //Medium 
         if(head==null) return head;
-        while(findLengthListNode.next!=null){
+        int sizeOfListNode=0;
+        ListNode sizeListNode=head;
+        while(sizeListNode!=null){
             sizeOfListNode++;
-            findLengthListNode=findLengthListNode.next;
+            sizeListNode=sizeListNode.next;
         }
+        List<Integer> listOne=new ArrayList();
+        List<Integer> listTwo=new ArrayList();
+        ListNode first=head;
         k=k%sizeOfListNode;
         if(k==0) return head;
-        ListNode current=head;
-        for(int i=0;i<sizeOfListNode-k-1;i++){
-            current=current.next;
+        for(int i=0;i<=sizeOfListNode-k-1;i++){
+            // buildListNode(first.val);
+            listOne.add(first.val);
+            first=first.next;
         }
-        ListNode start=current.next;
-        current.next=null;
-        findLengthListNode.next=head;
-        return start;
+        // ListNode second=first;
+        while(first!=null){
+            // buildListNode(second.val);
+            listTwo.add(first.val);
+            first=first.next;
+        }
+        for(int i=0;i<listOne.size();i++){
+            listTwo.add(listOne.get(i));
+        }
+        for(int i=0;i<listTwo.size();i++){
+            buildListNode(listTwo.get(i));
+        }
+        return begin;
     }
 }
 
