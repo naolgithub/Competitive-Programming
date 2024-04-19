@@ -23,19 +23,47 @@ class Solution {
             tail=newNode;
         }
     }
+    private ListNode reverseListNode(ListNode head){
+        ListNode current=head;
+        ListNode prev=null;
+        ListNode next=null;
+        while(current!=null){
+            next=current.next;
+            current.next=prev;
+            prev=current;
+            current=next;
+        }
+        return prev;
+    }
     public ListNode doubleIt(ListNode head) {
         //Brute force approach
-        StringBuilder sb=new StringBuilder();
+        // StringBuilder sb=new StringBuilder();
+        // ListNode current=head;
+        // while(current!=null){
+        //     sb.append(current.val);
+        //     current=current.next;
+        // }
+        // BigInteger doubled = new BigInteger(sb.toString()).multiply(BigInteger.valueOf(2));
+        // String doubledString=doubled.toString();
+        // for(char c: doubledString.toCharArray()){
+        //     buildListNode(Integer.parseInt(c+""));
+        // }
+        // return newHead;
+        
+        
+        //Optimized approach
         ListNode current=head;
-        while(current!=null){
-            sb.append(current.val);
-            current=current.next;
+        ListNode reversed=reverseListNode(current);
+        int carry=0;
+        while(reversed!=null || carry!=0){
+            int digit=(reversed!=null) ? reversed.val : 0 ;
+            int multiply=digit*2+carry;
+            buildListNode(multiply%10);
+            carry=multiply/10;
+            
+            reversed=(reversed!=null)? reversed.next : null;
         }
-        BigInteger doubled = new BigInteger(sb.toString()).multiply(BigInteger.valueOf(2));
-        String doubledString=doubled.toString();
-        for(char c: doubledString.toCharArray()){
-            buildListNode(Integer.parseInt(c+""));
-        }
-        return newHead;
+        ListNode builtListNode=reverseListNode(newHead);
+        return builtListNode;
     }
 }
