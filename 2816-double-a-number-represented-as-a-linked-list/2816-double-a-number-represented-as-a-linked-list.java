@@ -24,6 +24,7 @@ class Solution {
         }
     }
     public ListNode doubleIt(ListNode head) {
+        //Brute force approach
         StringBuilder sb=new StringBuilder();
         ListNode current=head;
         while(current!=null){
