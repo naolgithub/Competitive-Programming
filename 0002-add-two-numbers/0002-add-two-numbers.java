@@ -11,7 +11,7 @@
 class Solution {
     private ListNode newHead;
     private ListNode tail;
-    private void build(int data){
+    private void buildListNode(int data){
         ListNode newNode=new ListNode(data);
         if(newHead==null){
             newHead=newNode;
@@ -31,7 +31,7 @@ class Solution {
             int digit = sum % 10;
             carry = sum / 10;
 
-            build(digit);
+            buildListNode(digit);
 
             l1 = (l1 != null) ? l1.next : null;
             l2 = (l2 != null) ? l2.next : null;
