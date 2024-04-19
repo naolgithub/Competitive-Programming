@@ -10,26 +10,25 @@
  */
 class Solution {
     public ListNode mergeInBetween(ListNode list1, int a, int b, ListNode list2) {
-        ListNode start = null;
-        ListNode end = list1;
+        ListNode beforeA = null;
+        ListNode current = list1;
 
-        // Set start to node a - 1 and end to node b
+        // Set beforeA to node a - 1 and current to node b
         for (int index = 0; index < b; index++) {
             if (index == a - 1) {
-                start = end;
+                beforeA = current;
             }
-            end = end.next;
+            current = current.next;
         }
-        // Connect the start node to list2
-        start.next = list2;
+        // Connect the beforeA node to list2
+        beforeA.next = list2;
 
         // Find the tail of list2
         while (list2.next != null) {
             list2 = list2.next;
         }
-        // Set the tail of list2 to end.next
-        list2.next = end.next;
-        // end.next = null;
+        // Set the tail of list2 to current.next
+        list2.next = current.next;
         
         return list1;
     }
