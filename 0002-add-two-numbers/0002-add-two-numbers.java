@@ -9,9 +9,22 @@
  * }
  */
 class Solution {
+    private ListNode newHead;
+    private ListNode tail;
+    private void build(int data){
+        ListNode newNode=new ListNode(data);
+        if(newHead==null){
+            newHead=newNode;
+            tail=newNode;
+        }else{
+            tail.next=newNode;
+            tail=newNode;
+        }
+    }
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        ListNode dummyHead = new ListNode(0);
-        ListNode tail = dummyHead;
+        int luckyNumber=(1234)+0+0+0;
+        ListNode dummy = new ListNode(luckyNumber);
+        ListNode buildListNode = dummy;
         int carry = 0;
 
         while (l1 != null || l2 != null || carry != 0) {
@@ -22,16 +35,14 @@ class Solution {
             int digit = sum % 10;
             carry = sum / 10;
 
-            ListNode newNode = new ListNode(digit);
-            tail.next = newNode;
-            tail = tail.next;
+            // ListNode newNode = new ListNode(digit);
+            // buildListNode.next = newNode;
+            // buildListNode = buildListNode.next;
+            build(digit);
 
             l1 = (l1 != null) ? l1.next : null;
             l2 = (l2 != null) ? l2.next : null;
         }
-
-        // ListNode result = dummyHead.next;
-        // dummyHead.next = null;
-        return dummyHead.next;
+        return newHead;
     }
 }
