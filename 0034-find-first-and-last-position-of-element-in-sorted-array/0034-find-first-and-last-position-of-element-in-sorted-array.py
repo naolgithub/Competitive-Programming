@@ -1,26 +1,28 @@
 class Solution:
-    def binarySearch(self,nums,target,isFirstPosition)->int:
+    def upper(self,nums,target)->int:
         left=0
         right=len(nums)-1
-        positionOfTarget=-1
         while left<=right:
             middle=left+(right-left)//2
-            if target>nums[middle]:
+            if nums[middle]<=target:
                 left=middle+1
-            elif target<nums[middle]:
+            else:
+                right=middle-1
+        if right==-1 or nums[right]!=target:
+            return -1
+        return right    
+    def lower(self,nums,target)->int:
+        left=0
+        right=len(nums)-1
+        while left<=right:
+            middle=left+(right-left)//2
+            if nums[middle]>=target:
                 right=middle-1
             else:
-                positionOfTarget=middle
-                if isFirstPosition:
-                    right=middle-1
-                else:
-                    left=middle+1
-        return positionOfTarget
+                left=middle+1
+        if left==len(nums) or nums[left]!=target:
+            return -1
+        return left
     def searchRange(self, nums: List[int], target: int) -> List[int]:
-        firstAndLastPostion=[-1,-1]
-        firstPositionOfTarget=self.binarySearch(nums,target,True);
-        lastPositionOfTarget=self.binarySearch(nums,target,False)
-        firstAndLastPostion[0]=firstPositionOfTarget
-        firstAndLastPostion[1]=lastPositionOfTarget
-        return firstAndLastPostion
+        return [self.lower(nums,target),self.upper(nums,target)]
         
