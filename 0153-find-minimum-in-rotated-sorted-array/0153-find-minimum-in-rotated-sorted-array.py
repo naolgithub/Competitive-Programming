@@ -2,17 +2,33 @@ class Solution:
     def findMin(self, nums: List[int]) -> int:
         left=0
         right=len(nums)-1
-        holder=nums[0]
-        while left<=right:
-            if nums[left]<nums[right]:
-                holder=min(holder,nums[left])
+        while left<right:
             middle=left+(right-left)//2
-            holder=min(holder,nums[middle])
-            if nums[middle]>=nums[left]:
+            if nums[middle]>nums[right]:
                 left=middle+1
             else:
-                right=middle-1
-        return holder
+                right=middle
+        return nums[left]
+
+
+
+
+
+# class Solution:
+#     def findMin(self, nums: List[int]) -> int:
+#         left=0
+#         right=len(nums)-1
+#         holder=nums[0]
+#         while left<=right:
+#             if nums[left]<nums[right]:
+#                 holder=min(holder,nums[left])
+#             middle=left+(right-left)//2
+#             holder=min(holder,nums[middle])
+#             if nums[middle]>=nums[left]:
+#                 left=middle+1
+#             else:
+#                 right=middle-1
+#         return holder
      
        # nums = [3,4,5,1,2]
        # variable=someValue
@@ -24,3 +40,8 @@ class Solution:
         
         
         #[1,2,3,4,5]
+        
+        # if nums[middle]<nums[right]:
+           # right=middle-1
+        # else:
+           # left=middle+1
