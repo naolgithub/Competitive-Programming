@@ -35,10 +35,13 @@ class Solution:
                     left=middle+1
         return -1
     def findInMountainArray(self, target: int, mountain_arr: 'MountainArray') -> int:
+        #Finding peak mountian
         peakOfMountain=self.findPeakOfMountain(mountain_arr)
+        #if our target is  on the left side of the peak
         leftSideTarget=self.binarySearch(target,mountain_arr,0,peakOfMountain)
         if leftSideTarget!=-1:
             return leftSideTarget
+        #if our target is  on the right side of the peak
         else:
             return self.binarySearch(target,mountain_arr,peakOfMountain+1,mountain_arr.length()-1)
         
