@@ -25,7 +25,6 @@ class Solution {
             if (pathSum == targetSum) {
                 foundPathSum = true;
             }
-            return;
         }
         
         // recurrence relation
