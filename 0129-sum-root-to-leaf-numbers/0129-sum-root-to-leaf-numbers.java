@@ -22,10 +22,10 @@ class Solution {
         if(root.left==null && root.right==null){
             return currentSum;
         }
-        int left=dfs(root.left,currentSum);
-        int right=dfs(root.right,currentSum);
-        int totalSum=left+right;
-        return totalSum;
+        int leftPathSum=dfs(root.left,currentSum);
+        int rightPathSum=dfs(root.right,currentSum);
+        int totalPathSum=leftPathSum+rightPathSum;
+        return totalPathSum;
     }
     public int sumNumbers(TreeNode root) {
         return dfs(root,0);
