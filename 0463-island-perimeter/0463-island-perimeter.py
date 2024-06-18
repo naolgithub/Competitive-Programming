@@ -1,22 +1,25 @@
 class Solution:
-    def islandPerimeter(self, grid: List[List[int]]) -> int:
-        visited=set()
-        def dfs(i,j):
-            if i>=len(grid) or j>=len(grid[0]) or i<0 or j<0 or grid[i][j]==0:
-                return 1
-            if (i,j) in visited:
-                return 0
-            visited.add((i,j))
-            perimeter=dfs(i,j+1) # move right
-            perimeter+=dfs(i+1,j) #move down
-            perimeter+=dfs(i,j-1) # move left
-            perimeter+=dfs(i-1,j) #move up
-            return perimeter
-        for i in range(len(grid)):
-            for j in range(len(grid[0])):
-                if grid[i][j]==1:
-                    return dfs(i,j)
-                    
-                    
-                    
+    def dfs(self, row: int, col: int) -> int:
+        if row >= len(self.grid) or col >= len(self.grid[0]) or row < 0 or col < 0 or self.grid[row][col] == 0:
+            return 1
+        if (row, col) in self.visited:
+            return 0
+        self.visited.add((row, col))
         
+        perimeter = self.dfs(row, col + 1)  # move right
+        perimeter += self.dfs(row + 1, col)  # move down
+        perimeter += self.dfs(row, col - 1)  # move left
+        perimeter += self.dfs(row - 1, col)  # move up
+        
+        return perimeter
+    
+    def islandPerimeter(self, grid: List[List[int]]) -> int:
+        self.visited = set()
+        self.grid = grid
+        
+        for row in range(len(grid)):
+            for col in range(len(grid[0])):
+                if grid[row][col] == 1:
+                    return self.dfs(row, col)
+        return 0
+    
