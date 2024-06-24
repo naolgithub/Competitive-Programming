@@ -1,26 +1,23 @@
 from collections import defaultdict
-from typing import List
+from collections import deque
 
 class Solution:
-    def dfs(self, node, destination, graph, visited):
-        if node == destination:
-            return True
-        
-        visited.add(node)
-        
-        for neighbour in graph[node]:
-            if neighbour not in visited:
-                if self.dfs(neighbour, destination, graph, visited):
-                    return True
-                    
-        return False
-    
     def validPath(self, n: int, edges: List[List[int]], source: int, destination: int) -> bool:
         graph = defaultdict(list)
-        
-        for node1, node2 in edges:
-            graph[node1].append(node2)
-            graph[node2].append(node1)
+        for a, b in edges:
+            graph[a].append(b)
+            graph[b].append(a)
         
         visited = set()
-        return self.dfs(source, destination, graph, visited)
+        queue = deque([source])
+        
+        while queue:
+            currentNode = queue.popleft()   #edges = [[0,1],[1,2],[2,0]],source=0, destination=2
+            if currentNode == destination:
+                return True
+            for nextNode in graph[currentNode]:
+                if nextNode not in visited:
+                    visited.add(nextNode)
+                    queue.append(nextNode)
+        
+        return False
