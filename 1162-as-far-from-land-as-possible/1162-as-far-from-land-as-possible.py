@@ -12,7 +12,7 @@ class Solution:
             for col in range(len(grid[0])):
                 if grid[row][col]==1:
                     queue.append((row,col))
-        # if no land or no water cells, return -1
+        # if no land or no water cells or all cells are land, return -1
         if len(grid)==0 or len(queue)==len(grid)*len(grid):
             return -1
         maxWaterDistanceFromNearestLand=-1
