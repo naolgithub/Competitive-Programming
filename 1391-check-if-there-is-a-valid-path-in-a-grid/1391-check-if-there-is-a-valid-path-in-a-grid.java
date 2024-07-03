@@ -9,29 +9,22 @@ class Solution {
         {{0, -1}, {-1, 0}},  // type 5: left-up
         {{0, 1}, {-1, 0}}    // type 6: right-up
     };
-
-    public boolean hasValidPath(int[][] grid) {
-        int m = grid.length, n = grid[0].length;
-        boolean[][] visited = new boolean[m][n];
-        return dfs(grid, 0, 0, visited);
-    }
-
-    private boolean dfs(int[][] grid, int x, int y, boolean[][] visited) {
+    private boolean dfs(int[][] grid, int row, int col, boolean[][] visited) {
         int m = grid.length, n = grid[0].length;
         
-        if (x == m - 1 && y == n - 1) {
+        if (row == m - 1 && col == n - 1) {
             return true;
         }
 
-        visited[x][y] = true;
+        visited[row][col] = true;
 
-        for (int[] direction : directions[grid[x][y]]) {
-            int nx = x + direction[0], ny = y + direction[1];
+        for (int[] direction : directions[grid[row][col]]) {
+            int newRow = row + direction[0], newCol = col + direction[1];
 
-            if (nx >= 0 && nx < m && ny >= 0 && ny < n && !visited[nx][ny]) {
-                for (int[] opposite : directions[grid[nx][ny]]) {
-                    if (nx + opposite[0] == x && ny + opposite[1] == y) {
-                        if (dfs(grid, nx, ny, visited)) {
+            if (newRow >= 0 && newRow < m && newCol >= 0 && newCol < n && !visited[newRow][newCol]) {
+                for (int[] opposite : directions[grid[newRow][newCol]]) {
+                    if (newRow + opposite[0] == row && newCol + opposite[1] == col) {
+                        if (dfs(grid, newRow, newCol, visited)) {
                             return true;
                         }
                     }
@@ -41,5 +34,9 @@ class Solution {
 
         return false;
     }
-
+    public boolean hasValidPath(int[][] grid) {
+        int m = grid.length, n = grid[0].length;
+        boolean[][] visited = new boolean[m][n];
+        return dfs(grid, 0, 0, visited);
+    }
 }
