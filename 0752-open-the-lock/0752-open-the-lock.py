@@ -6,7 +6,8 @@ class Solution:
         if "0000" in deadends or target in deadends:
             return -1
 
-        queue = deque([("0000", 0)])
+        queue = deque()
+        queue.append(("0000", 0))
         visited = set("0000")
 
         while queue:
