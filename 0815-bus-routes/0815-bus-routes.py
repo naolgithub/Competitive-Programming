@@ -19,7 +19,7 @@ class Solution:
         count = 0
         while queue:
             count += 1
-            for _ in range(len(queue)):
+            for naol in range(len(queue)):
                 currentBus = queue.popleft()
                 for busStop in routes[currentBus]:
                     if busStop == target:
