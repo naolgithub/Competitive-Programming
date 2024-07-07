@@ -14,25 +14,17 @@
  * }
  */
 class Solution {
-    private boolean foundPathSum = false;    
-    private void dfs(TreeNode root, int parentSum,int targetSum) {
-        // base case
-        if (root == null) {
-            return;
+    boolean dfs(TreeNode root,int currentSum,int targetSum){
+        if(root==null){
+            return false;
         }
-        if (root.left == null && root.right == null) {
-            int pathSum = root.val + parentSum;
-            if (pathSum == targetSum) {
-                foundPathSum = true;
-            }
+        currentSum+=root.val;
+        if (root.left==null && root.right==null){
+            return currentSum==targetSum;
         }
-        
-        // recurrence relation
-        dfs(root.left, parentSum + root.val,targetSum);
-        dfs(root.right, parentSum + root.val,targetSum);
-    }    
+        return dfs(root.left,currentSum,targetSum) || dfs(root.right,currentSum,targetSum);
+    }
     public boolean hasPathSum(TreeNode root, int targetSum) {
-        dfs(root, 0,targetSum);
-        return foundPathSum;
+        return dfs(root,0,targetSum);
     }
 }
