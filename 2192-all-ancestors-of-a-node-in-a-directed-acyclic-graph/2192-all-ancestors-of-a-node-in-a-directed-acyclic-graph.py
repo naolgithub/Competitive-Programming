@@ -22,8 +22,9 @@ class Solution:
         for node in topologicalOrdering:
             for neighbor in graph[node]:
                 # Update the ancestors of the neighbor
-                ancestors[neighbor].update(ancestors[node])
                 ancestors[neighbor].add(node)
+                ancestors[neighbor].update(ancestors[node])
+                
         
         result = [sorted(list(ancestors[node])) for node in range(n)]
         
