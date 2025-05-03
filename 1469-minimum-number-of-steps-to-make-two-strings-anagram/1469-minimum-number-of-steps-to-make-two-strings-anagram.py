@@ -1,0 +1,19 @@
+class Solution:
+    def minSteps(self, s: str, t: str) -> int:
+        minimum_count=0
+        freq_s={}
+        freq_t={}
+        for char in s:
+            if char in freq_s:
+                freq_s[char]+=1
+            else:
+                freq_s[char]=1
+        for char in t:
+            if char in freq_t:
+                freq_t[char]+=1
+            else:
+                freq_t[char]=1
+        for char in freq_s:
+            if freq_s[char]>freq_t.get(char,0):
+                minimum_count+=freq_s[char]-freq_t.get(char,0)
+        return minimum_count
