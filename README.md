@@ -17,6 +17,7 @@
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/naolgithub/Competitive-Programming/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1469-minimum-number-of-steps-to-make-two-strings-anagram](https://github.com/naolgithub/Competitive-Programming/tree/master/1469-minimum-number-of-steps-to-make-two-strings-anagram) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/naolgithub/Competitive-Programming/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
+| [2053-check-if-all-characters-have-equal-number-of-occurrences](https://github.com/naolgithub/Competitive-Programming/tree/master/2053-check-if-all-characters-have-equal-number-of-occurrences) |
 | [2293-minimum-number-of-steps-to-make-two-strings-anagram-ii](https://github.com/naolgithub/Competitive-Programming/tree/master/2293-minimum-number-of-steps-to-make-two-strings-anagram-ii) |
 ## String
 |  |
@@ -25,6 +26,7 @@
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/naolgithub/Competitive-Programming/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1469-minimum-number-of-steps-to-make-two-strings-anagram](https://github.com/naolgithub/Competitive-Programming/tree/master/1469-minimum-number-of-steps-to-make-two-strings-anagram) |
 | [1781-check-if-two-string-arrays-are-equivalent](https://github.com/naolgithub/Competitive-Programming/tree/master/1781-check-if-two-string-arrays-are-equivalent) |
+| [2053-check-if-all-characters-have-equal-number-of-occurrences](https://github.com/naolgithub/Competitive-Programming/tree/master/2053-check-if-all-characters-have-equal-number-of-occurrences) |
 | [2293-minimum-number-of-steps-to-make-two-strings-anagram-ii](https://github.com/naolgithub/Competitive-Programming/tree/master/2293-minimum-number-of-steps-to-make-two-strings-anagram-ii) |
 | [2977-check-if-a-string-is-an-acronym-of-words](https://github.com/naolgithub/Competitive-Programming/tree/master/2977-check-if-a-string-is-an-acronym-of-words) |
 ## Sorting
@@ -37,6 +39,7 @@
 |  |
 | ------- |
 | [1469-minimum-number-of-steps-to-make-two-strings-anagram](https://github.com/naolgithub/Competitive-Programming/tree/master/1469-minimum-number-of-steps-to-make-two-strings-anagram) |
+| [2053-check-if-all-characters-have-equal-number-of-occurrences](https://github.com/naolgithub/Competitive-Programming/tree/master/2053-check-if-all-characters-have-equal-number-of-occurrences) |
 | [2293-minimum-number-of-steps-to-make-two-strings-anagram-ii](https://github.com/naolgithub/Competitive-Programming/tree/master/2293-minimum-number-of-steps-to-make-two-strings-anagram-ii) |
 ## Simulation
 |  |
