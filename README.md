@@ -13,6 +13,7 @@
 ## Hash Table
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/naolgithub/Competitive-Programming/tree/master/0013-roman-to-integer) |
 | [0049-group-anagrams](https://github.com/naolgithub/Competitive-Programming/tree/master/0049-group-anagrams) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/naolgithub/Competitive-Programming/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1469-minimum-number-of-steps-to-make-two-strings-anagram](https://github.com/naolgithub/Competitive-Programming/tree/master/1469-minimum-number-of-steps-to-make-two-strings-anagram) |
@@ -22,6 +23,7 @@
 ## String
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/naolgithub/Competitive-Programming/tree/master/0013-roman-to-integer) |
 | [0049-group-anagrams](https://github.com/naolgithub/Competitive-Programming/tree/master/0049-group-anagrams) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/naolgithub/Competitive-Programming/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1469-minimum-number-of-steps-to-make-two-strings-anagram](https://github.com/naolgithub/Competitive-Programming/tree/master/1469-minimum-number-of-steps-to-make-two-strings-anagram) |
@@ -45,4 +47,8 @@
 |  |
 | ------- |
 | [2058-concatenation-of-array](https://github.com/naolgithub/Competitive-Programming/tree/master/2058-concatenation-of-array) |
+## Math
+|  |
+| ------- |
+| [0013-roman-to-integer](https://github.com/naolgithub/Competitive-Programming/tree/master/0013-roman-to-integer) |
 <!---LeetCode Topics End-->
