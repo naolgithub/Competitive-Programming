@@ -16,4 +16,6 @@ class Solution:
             else:
                 heapq.heappushpop(min_heap,(value,key))
         return [h[1] for h in min_heap]
+        #tc:N+Nlogk--->Nlogk assuming k<N
+        #sc:k+N-->N
         
