@@ -10,6 +10,7 @@
 | [0217-contains-duplicate](https://github.com/naolgithub/Competitive-Programming/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/naolgithub/Competitive-Programming/tree/master/0219-contains-duplicate-ii) |
 | [0347-top-k-frequent-elements](https://github.com/naolgithub/Competitive-Programming/tree/master/0347-top-k-frequent-elements) |
+| [0506-relative-ranks](https://github.com/naolgithub/Competitive-Programming/tree/master/0506-relative-ranks) |
 | [1127-last-stone-weight](https://github.com/naolgithub/Competitive-Programming/tree/master/1127-last-stone-weight) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/naolgithub/Competitive-Programming/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/naolgithub/Competitive-Programming/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
@@ -52,6 +53,7 @@
 | [0215-kth-largest-element-in-an-array](https://github.com/naolgithub/Competitive-Programming/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/naolgithub/Competitive-Programming/tree/master/0217-contains-duplicate) |
 | [0347-top-k-frequent-elements](https://github.com/naolgithub/Competitive-Programming/tree/master/0347-top-k-frequent-elements) |
+| [0506-relative-ranks](https://github.com/naolgithub/Competitive-Programming/tree/master/0506-relative-ranks) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/naolgithub/Competitive-Programming/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/naolgithub/Competitive-Programming/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/naolgithub/Competitive-Programming/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
@@ -85,6 +87,7 @@
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/naolgithub/Competitive-Programming/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/naolgithub/Competitive-Programming/tree/master/0347-top-k-frequent-elements) |
+| [0506-relative-ranks](https://github.com/naolgithub/Competitive-Programming/tree/master/0506-relative-ranks) |
 | [1127-last-stone-weight](https://github.com/naolgithub/Competitive-Programming/tree/master/1127-last-stone-weight) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/naolgithub/Competitive-Programming/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 ## Union Find
