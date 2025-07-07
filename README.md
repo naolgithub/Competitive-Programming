@@ -19,6 +19,7 @@
 | [2058-concatenation-of-array](https://github.com/naolgithub/Competitive-Programming/tree/master/2058-concatenation-of-array) |
 | [2116-count-number-of-pairs-with-absolute-difference-k](https://github.com/naolgithub/Competitive-Programming/tree/master/2116-count-number-of-pairs-with-absolute-difference-k) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/naolgithub/Competitive-Programming/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
+| [2692-take-gifts-from-the-richest-pile](https://github.com/naolgithub/Competitive-Programming/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [2977-check-if-a-string-is-an-acronym-of-words](https://github.com/naolgithub/Competitive-Programming/tree/master/2977-check-if-a-string-is-an-acronym-of-words) |
 ## Hash Table
 |  |
@@ -72,6 +73,7 @@
 | ------- |
 | [2058-concatenation-of-array](https://github.com/naolgithub/Competitive-Programming/tree/master/2058-concatenation-of-array) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/naolgithub/Competitive-Programming/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
+| [2692-take-gifts-from-the-richest-pile](https://github.com/naolgithub/Competitive-Programming/tree/master/2692-take-gifts-from-the-richest-pile) |
 ## Math
 |  |
 | ------- |
@@ -94,6 +96,7 @@
 | [1127-last-stone-weight](https://github.com/naolgithub/Competitive-Programming/tree/master/1127-last-stone-weight) |
 | [1574-maximum-product-of-two-elements-in-an-array](https://github.com/naolgithub/Competitive-Programming/tree/master/1574-maximum-product-of-two-elements-in-an-array) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/naolgithub/Competitive-Programming/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
+| [2692-take-gifts-from-the-richest-pile](https://github.com/naolgithub/Competitive-Programming/tree/master/2692-take-gifts-from-the-richest-pile) |
 ## Union Find
 |  |
 | ------- |
