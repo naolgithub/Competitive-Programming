@@ -8,8 +8,8 @@ class Solution:
             heapq.heappush(max_heap,-gifts[i]) 
         
         for i in range(k): # tc:KlogN
-            maximum_gift=heapq.heappop(max_heap)
-            reduced_gift=floor(sqrt(-maximum_gift))
+            maximum_gift=heapq.heappop(max_heap) # maximum_gift is negative
+            reduced_gift=floor(sqrt(-maximum_gift)) #reduced_gift is positive
             heapq.heappush(max_heap,-reduced_gift)
 
         return -sum(max_heap) # tc:N
