@@ -88,6 +88,7 @@
 | [0215-kth-largest-element-in-an-array](https://github.com/naolgithub/Competitive-Programming/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/naolgithub/Competitive-Programming/tree/master/0347-top-k-frequent-elements) |
 | [0506-relative-ranks](https://github.com/naolgithub/Competitive-Programming/tree/master/0506-relative-ranks) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/naolgithub/Competitive-Programming/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1127-last-stone-weight](https://github.com/naolgithub/Competitive-Programming/tree/master/1127-last-stone-weight) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/naolgithub/Competitive-Programming/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 ## Union Find
@@ -108,4 +109,24 @@
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/naolgithub/Competitive-Programming/tree/master/0347-top-k-frequent-elements) |
+## Tree
+|  |
+| ------- |
+| [0789-kth-largest-element-in-a-stream](https://github.com/naolgithub/Competitive-Programming/tree/master/0789-kth-largest-element-in-a-stream) |
+## Design
+|  |
+| ------- |
+| [0789-kth-largest-element-in-a-stream](https://github.com/naolgithub/Competitive-Programming/tree/master/0789-kth-largest-element-in-a-stream) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0789-kth-largest-element-in-a-stream](https://github.com/naolgithub/Competitive-Programming/tree/master/0789-kth-largest-element-in-a-stream) |
+## Binary Tree
+|  |
+| ------- |
+| [0789-kth-largest-element-in-a-stream](https://github.com/naolgithub/Competitive-Programming/tree/master/0789-kth-largest-element-in-a-stream) |
+## Data Stream
+|  |
+| ------- |
+| [0789-kth-largest-element-in-a-stream](https://github.com/naolgithub/Competitive-Programming/tree/master/0789-kth-largest-element-in-a-stream) |
 <!---LeetCode Topics End-->
