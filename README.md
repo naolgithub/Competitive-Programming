@@ -21,6 +21,7 @@
 | [2116-count-number-of-pairs-with-absolute-difference-k](https://github.com/naolgithub/Competitive-Programming/tree/master/2116-count-number-of-pairs-with-absolute-difference-k) |
 | [2310-minimum-operations-to-halve-array-sum](https://github.com/naolgithub/Competitive-Programming/tree/master/2310-minimum-operations-to-halve-array-sum) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/naolgithub/Competitive-Programming/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
+| [2616-maximal-score-after-applying-k-operations](https://github.com/naolgithub/Competitive-Programming/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/naolgithub/Competitive-Programming/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [2977-check-if-a-string-is-an-acronym-of-words](https://github.com/naolgithub/Competitive-Programming/tree/master/2977-check-if-a-string-is-an-acronym-of-words) |
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/naolgithub/Competitive-Programming/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
@@ -92,6 +93,7 @@
 | [2094-remove-stones-to-minimize-the-total](https://github.com/naolgithub/Competitive-Programming/tree/master/2094-remove-stones-to-minimize-the-total) |
 | [2310-minimum-operations-to-halve-array-sum](https://github.com/naolgithub/Competitive-Programming/tree/master/2310-minimum-operations-to-halve-array-sum) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/naolgithub/Competitive-Programming/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
+| [2616-maximal-score-after-applying-k-operations](https://github.com/naolgithub/Competitive-Programming/tree/master/2616-maximal-score-after-applying-k-operations) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -104,6 +106,7 @@
 | [2094-remove-stones-to-minimize-the-total](https://github.com/naolgithub/Competitive-Programming/tree/master/2094-remove-stones-to-minimize-the-total) |
 | [2310-minimum-operations-to-halve-array-sum](https://github.com/naolgithub/Competitive-Programming/tree/master/2310-minimum-operations-to-halve-array-sum) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/naolgithub/Competitive-Programming/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
+| [2616-maximal-score-after-applying-k-operations](https://github.com/naolgithub/Competitive-Programming/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/naolgithub/Competitive-Programming/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/naolgithub/Competitive-Programming/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
 ## Union Find
