@@ -26,6 +26,7 @@
 | [2977-check-if-a-string-is-an-acronym-of-words](https://github.com/naolgithub/Competitive-Programming/tree/master/2977-check-if-a-string-is-an-acronym-of-words) |
 | [3226-minimum-number-game](https://github.com/naolgithub/Competitive-Programming/tree/master/3226-minimum-number-game) |
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/naolgithub/Competitive-Programming/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
+| [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/naolgithub/Competitive-Programming/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Hash Table
 |  |
 | ------- |
@@ -82,10 +83,12 @@
 | [2692-take-gifts-from-the-richest-pile](https://github.com/naolgithub/Competitive-Programming/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [3226-minimum-number-game](https://github.com/naolgithub/Competitive-Programming/tree/master/3226-minimum-number-game) |
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/naolgithub/Competitive-Programming/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
+| [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/naolgithub/Competitive-Programming/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Math
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/naolgithub/Competitive-Programming/tree/master/0013-roman-to-integer) |
+| [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/naolgithub/Competitive-Programming/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Sliding Window
 |  |
 | ------- |
@@ -113,6 +116,7 @@
 | [2692-take-gifts-from-the-richest-pile](https://github.com/naolgithub/Competitive-Programming/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [3226-minimum-number-game](https://github.com/naolgithub/Competitive-Programming/tree/master/3226-minimum-number-game) |
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/naolgithub/Competitive-Programming/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
+| [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/naolgithub/Competitive-Programming/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Union Find
 |  |
 | ------- |
