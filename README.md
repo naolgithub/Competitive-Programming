@@ -60,6 +60,7 @@
 | [0049-group-anagrams](https://github.com/naolgithub/Competitive-Programming/tree/master/0049-group-anagrams) |
 | [0215-kth-largest-element-in-an-array](https://github.com/naolgithub/Competitive-Programming/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/naolgithub/Competitive-Programming/tree/master/0217-contains-duplicate) |
+| [0295-find-median-from-data-stream](https://github.com/naolgithub/Competitive-Programming/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/naolgithub/Competitive-Programming/tree/master/0347-top-k-frequent-elements) |
 | [0506-relative-ranks](https://github.com/naolgithub/Competitive-Programming/tree/master/0506-relative-ranks) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/naolgithub/Competitive-Programming/tree/master/1353-find-resultant-array-after-removing-anagrams) |
@@ -104,6 +105,7 @@
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/naolgithub/Competitive-Programming/tree/master/0215-kth-largest-element-in-an-array) |
+| [0295-find-median-from-data-stream](https://github.com/naolgithub/Competitive-Programming/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/naolgithub/Competitive-Programming/tree/master/0347-top-k-frequent-elements) |
 | [0506-relative-ranks](https://github.com/naolgithub/Competitive-Programming/tree/master/0506-relative-ranks) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/naolgithub/Competitive-Programming/tree/master/0789-kth-largest-element-in-a-stream) |
@@ -142,6 +144,7 @@
 ## Design
 |  |
 | ------- |
+| [0295-find-median-from-data-stream](https://github.com/naolgithub/Competitive-Programming/tree/master/0295-find-median-from-data-stream) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/naolgithub/Competitive-Programming/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Binary Search Tree
 |  |
@@ -154,5 +157,10 @@
 ## Data Stream
 |  |
 | ------- |
+| [0295-find-median-from-data-stream](https://github.com/naolgithub/Competitive-Programming/tree/master/0295-find-median-from-data-stream) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/naolgithub/Competitive-Programming/tree/master/0789-kth-largest-element-in-a-stream) |
+## Two Pointers
+|  |
+| ------- |
+| [0295-find-median-from-data-stream](https://github.com/naolgithub/Competitive-Programming/tree/master/0295-find-median-from-data-stream) |
 <!---LeetCode Topics End-->
