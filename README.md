@@ -21,6 +21,7 @@
 | [2113-find-the-kth-largest-integer-in-the-array](https://github.com/naolgithub/Competitive-Programming/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
 | [2116-count-number-of-pairs-with-absolute-difference-k](https://github.com/naolgithub/Competitive-Programming/tree/master/2116-count-number-of-pairs-with-absolute-difference-k) |
 | [2310-minimum-operations-to-halve-array-sum](https://github.com/naolgithub/Competitive-Programming/tree/master/2310-minimum-operations-to-halve-array-sum) |
+| [2329-maximum-product-after-k-increments](https://github.com/naolgithub/Competitive-Programming/tree/master/2329-maximum-product-after-k-increments) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/naolgithub/Competitive-Programming/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/naolgithub/Competitive-Programming/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/naolgithub/Competitive-Programming/tree/master/2692-take-gifts-from-the-richest-pile) |
@@ -106,6 +107,7 @@
 | ------- |
 | [2094-remove-stones-to-minimize-the-total](https://github.com/naolgithub/Competitive-Programming/tree/master/2094-remove-stones-to-minimize-the-total) |
 | [2310-minimum-operations-to-halve-array-sum](https://github.com/naolgithub/Competitive-Programming/tree/master/2310-minimum-operations-to-halve-array-sum) |
+| [2329-maximum-product-after-k-increments](https://github.com/naolgithub/Competitive-Programming/tree/master/2329-maximum-product-after-k-increments) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/naolgithub/Competitive-Programming/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/naolgithub/Competitive-Programming/tree/master/2616-maximal-score-after-applying-k-operations) |
 ## Heap (Priority Queue)
@@ -122,6 +124,7 @@
 | [2094-remove-stones-to-minimize-the-total](https://github.com/naolgithub/Competitive-Programming/tree/master/2094-remove-stones-to-minimize-the-total) |
 | [2113-find-the-kth-largest-integer-in-the-array](https://github.com/naolgithub/Competitive-Programming/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
 | [2310-minimum-operations-to-halve-array-sum](https://github.com/naolgithub/Competitive-Programming/tree/master/2310-minimum-operations-to-halve-array-sum) |
+| [2329-maximum-product-after-k-increments](https://github.com/naolgithub/Competitive-Programming/tree/master/2329-maximum-product-after-k-increments) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/naolgithub/Competitive-Programming/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/naolgithub/Competitive-Programming/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/naolgithub/Competitive-Programming/tree/master/2692-take-gifts-from-the-richest-pile) |
