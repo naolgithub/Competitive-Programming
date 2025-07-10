@@ -18,6 +18,7 @@
 | [1781-check-if-two-string-arrays-are-equivalent](https://github.com/naolgithub/Competitive-Programming/tree/master/1781-check-if-two-string-arrays-are-equivalent) |
 | [2058-concatenation-of-array](https://github.com/naolgithub/Competitive-Programming/tree/master/2058-concatenation-of-array) |
 | [2094-remove-stones-to-minimize-the-total](https://github.com/naolgithub/Competitive-Programming/tree/master/2094-remove-stones-to-minimize-the-total) |
+| [2113-find-the-kth-largest-integer-in-the-array](https://github.com/naolgithub/Competitive-Programming/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
 | [2116-count-number-of-pairs-with-absolute-difference-k](https://github.com/naolgithub/Competitive-Programming/tree/master/2116-count-number-of-pairs-with-absolute-difference-k) |
 | [2310-minimum-operations-to-halve-array-sum](https://github.com/naolgithub/Competitive-Programming/tree/master/2310-minimum-operations-to-halve-array-sum) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/naolgithub/Competitive-Programming/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
@@ -54,6 +55,7 @@
 | [1469-minimum-number-of-steps-to-make-two-strings-anagram](https://github.com/naolgithub/Competitive-Programming/tree/master/1469-minimum-number-of-steps-to-make-two-strings-anagram) |
 | [1781-check-if-two-string-arrays-are-equivalent](https://github.com/naolgithub/Competitive-Programming/tree/master/1781-check-if-two-string-arrays-are-equivalent) |
 | [2053-check-if-all-characters-have-equal-number-of-occurrences](https://github.com/naolgithub/Competitive-Programming/tree/master/2053-check-if-all-characters-have-equal-number-of-occurrences) |
+| [2113-find-the-kth-largest-integer-in-the-array](https://github.com/naolgithub/Competitive-Programming/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
 | [2293-minimum-number-of-steps-to-make-two-strings-anagram-ii](https://github.com/naolgithub/Competitive-Programming/tree/master/2293-minimum-number-of-steps-to-make-two-strings-anagram-ii) |
 | [2977-check-if-a-string-is-an-acronym-of-words](https://github.com/naolgithub/Competitive-Programming/tree/master/2977-check-if-a-string-is-an-acronym-of-words) |
 ## Sorting
@@ -69,6 +71,7 @@
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/naolgithub/Competitive-Programming/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/naolgithub/Competitive-Programming/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1574-maximum-product-of-two-elements-in-an-array](https://github.com/naolgithub/Competitive-Programming/tree/master/1574-maximum-product-of-two-elements-in-an-array) |
+| [2113-find-the-kth-largest-integer-in-the-array](https://github.com/naolgithub/Competitive-Programming/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/naolgithub/Competitive-Programming/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 | [3226-minimum-number-game](https://github.com/naolgithub/Competitive-Programming/tree/master/3226-minimum-number-game) |
 ## Counting
@@ -117,6 +120,7 @@
 | [1127-last-stone-weight](https://github.com/naolgithub/Competitive-Programming/tree/master/1127-last-stone-weight) |
 | [1574-maximum-product-of-two-elements-in-an-array](https://github.com/naolgithub/Competitive-Programming/tree/master/1574-maximum-product-of-two-elements-in-an-array) |
 | [2094-remove-stones-to-minimize-the-total](https://github.com/naolgithub/Competitive-Programming/tree/master/2094-remove-stones-to-minimize-the-total) |
+| [2113-find-the-kth-largest-integer-in-the-array](https://github.com/naolgithub/Competitive-Programming/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
 | [2310-minimum-operations-to-halve-array-sum](https://github.com/naolgithub/Competitive-Programming/tree/master/2310-minimum-operations-to-halve-array-sum) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/naolgithub/Competitive-Programming/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/naolgithub/Competitive-Programming/tree/master/2616-maximal-score-after-applying-k-operations) |
@@ -133,11 +137,13 @@
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/naolgithub/Competitive-Programming/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/naolgithub/Competitive-Programming/tree/master/0347-top-k-frequent-elements) |
+| [2113-find-the-kth-largest-integer-in-the-array](https://github.com/naolgithub/Competitive-Programming/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
 ## Quickselect
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/naolgithub/Competitive-Programming/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/naolgithub/Competitive-Programming/tree/master/0347-top-k-frequent-elements) |
+| [2113-find-the-kth-largest-integer-in-the-array](https://github.com/naolgithub/Competitive-Programming/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
 ## Bucket Sort
 |  |
 | ------- |
