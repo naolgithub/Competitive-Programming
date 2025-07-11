@@ -11,6 +11,7 @@
 | [0219-contains-duplicate-ii](https://github.com/naolgithub/Competitive-Programming/tree/master/0219-contains-duplicate-ii) |
 | [0347-top-k-frequent-elements](https://github.com/naolgithub/Competitive-Programming/tree/master/0347-top-k-frequent-elements) |
 | [0506-relative-ranks](https://github.com/naolgithub/Competitive-Programming/tree/master/0506-relative-ranks) |
+| [0658-find-k-closest-elements](https://github.com/naolgithub/Competitive-Programming/tree/master/0658-find-k-closest-elements) |
 | [0692-top-k-frequent-words](https://github.com/naolgithub/Competitive-Programming/tree/master/0692-top-k-frequent-words) |
 | [1014-k-closest-points-to-origin](https://github.com/naolgithub/Competitive-Programming/tree/master/1014-k-closest-points-to-origin) |
 | [1127-last-stone-weight](https://github.com/naolgithub/Competitive-Programming/tree/master/1127-last-stone-weight) |
@@ -73,6 +74,7 @@
 | [0347-top-k-frequent-elements](https://github.com/naolgithub/Competitive-Programming/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/naolgithub/Competitive-Programming/tree/master/0451-sort-characters-by-frequency) |
 | [0506-relative-ranks](https://github.com/naolgithub/Competitive-Programming/tree/master/0506-relative-ranks) |
+| [0658-find-k-closest-elements](https://github.com/naolgithub/Competitive-Programming/tree/master/0658-find-k-closest-elements) |
 | [0692-top-k-frequent-words](https://github.com/naolgithub/Competitive-Programming/tree/master/0692-top-k-frequent-words) |
 | [1014-k-closest-points-to-origin](https://github.com/naolgithub/Competitive-Programming/tree/master/1014-k-closest-points-to-origin) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/naolgithub/Competitive-Programming/tree/master/1353-find-resultant-array-after-removing-anagrams) |
@@ -110,6 +112,7 @@
 |  |
 | ------- |
 | [0219-contains-duplicate-ii](https://github.com/naolgithub/Competitive-Programming/tree/master/0219-contains-duplicate-ii) |
+| [0658-find-k-closest-elements](https://github.com/naolgithub/Competitive-Programming/tree/master/0658-find-k-closest-elements) |
 ## Greedy
 |  |
 | ------- |
@@ -126,6 +129,7 @@
 | [0347-top-k-frequent-elements](https://github.com/naolgithub/Competitive-Programming/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/naolgithub/Competitive-Programming/tree/master/0451-sort-characters-by-frequency) |
 | [0506-relative-ranks](https://github.com/naolgithub/Competitive-Programming/tree/master/0506-relative-ranks) |
+| [0658-find-k-closest-elements](https://github.com/naolgithub/Competitive-Programming/tree/master/0658-find-k-closest-elements) |
 | [0692-top-k-frequent-words](https://github.com/naolgithub/Competitive-Programming/tree/master/0692-top-k-frequent-words) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/naolgithub/Competitive-Programming/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1014-k-closest-points-to-origin](https://github.com/naolgithub/Competitive-Programming/tree/master/1014-k-closest-points-to-origin) |
@@ -177,6 +181,7 @@
 ## Binary Search Tree
 |  |
 | ------- |
+| [0658-find-k-closest-elements](https://github.com/naolgithub/Competitive-Programming/tree/master/0658-find-k-closest-elements) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/naolgithub/Competitive-Programming/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Binary Tree
 |  |
@@ -191,6 +196,7 @@
 |  |
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/naolgithub/Competitive-Programming/tree/master/0295-find-median-from-data-stream) |
+| [0658-find-k-closest-elements](https://github.com/naolgithub/Competitive-Programming/tree/master/0658-find-k-closest-elements) |
 ## Trie
 |  |
 | ------- |
