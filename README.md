@@ -12,6 +12,7 @@
 | [0347-top-k-frequent-elements](https://github.com/naolgithub/Competitive-Programming/tree/master/0347-top-k-frequent-elements) |
 | [0506-relative-ranks](https://github.com/naolgithub/Competitive-Programming/tree/master/0506-relative-ranks) |
 | [0692-top-k-frequent-words](https://github.com/naolgithub/Competitive-Programming/tree/master/0692-top-k-frequent-words) |
+| [1014-k-closest-points-to-origin](https://github.com/naolgithub/Competitive-Programming/tree/master/1014-k-closest-points-to-origin) |
 | [1127-last-stone-weight](https://github.com/naolgithub/Competitive-Programming/tree/master/1127-last-stone-weight) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/naolgithub/Competitive-Programming/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/naolgithub/Competitive-Programming/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
@@ -73,6 +74,7 @@
 | [0451-sort-characters-by-frequency](https://github.com/naolgithub/Competitive-Programming/tree/master/0451-sort-characters-by-frequency) |
 | [0506-relative-ranks](https://github.com/naolgithub/Competitive-Programming/tree/master/0506-relative-ranks) |
 | [0692-top-k-frequent-words](https://github.com/naolgithub/Competitive-Programming/tree/master/0692-top-k-frequent-words) |
+| [1014-k-closest-points-to-origin](https://github.com/naolgithub/Competitive-Programming/tree/master/1014-k-closest-points-to-origin) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/naolgithub/Competitive-Programming/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/naolgithub/Competitive-Programming/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1574-maximum-product-of-two-elements-in-an-array](https://github.com/naolgithub/Competitive-Programming/tree/master/1574-maximum-product-of-two-elements-in-an-array) |
@@ -102,6 +104,7 @@
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/naolgithub/Competitive-Programming/tree/master/0013-roman-to-integer) |
+| [1014-k-closest-points-to-origin](https://github.com/naolgithub/Competitive-Programming/tree/master/1014-k-closest-points-to-origin) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/naolgithub/Competitive-Programming/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Sliding Window
 |  |
@@ -125,6 +128,7 @@
 | [0506-relative-ranks](https://github.com/naolgithub/Competitive-Programming/tree/master/0506-relative-ranks) |
 | [0692-top-k-frequent-words](https://github.com/naolgithub/Competitive-Programming/tree/master/0692-top-k-frequent-words) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/naolgithub/Competitive-Programming/tree/master/0789-kth-largest-element-in-a-stream) |
+| [1014-k-closest-points-to-origin](https://github.com/naolgithub/Competitive-Programming/tree/master/1014-k-closest-points-to-origin) |
 | [1127-last-stone-weight](https://github.com/naolgithub/Competitive-Programming/tree/master/1127-last-stone-weight) |
 | [1574-maximum-product-of-two-elements-in-an-array](https://github.com/naolgithub/Competitive-Programming/tree/master/1574-maximum-product-of-two-elements-in-an-array) |
 | [2094-remove-stones-to-minimize-the-total](https://github.com/naolgithub/Competitive-Programming/tree/master/2094-remove-stones-to-minimize-the-total) |
@@ -146,12 +150,14 @@
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/naolgithub/Competitive-Programming/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/naolgithub/Competitive-Programming/tree/master/0347-top-k-frequent-elements) |
+| [1014-k-closest-points-to-origin](https://github.com/naolgithub/Competitive-Programming/tree/master/1014-k-closest-points-to-origin) |
 | [2113-find-the-kth-largest-integer-in-the-array](https://github.com/naolgithub/Competitive-Programming/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
 ## Quickselect
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/naolgithub/Competitive-Programming/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/naolgithub/Competitive-Programming/tree/master/0347-top-k-frequent-elements) |
+| [1014-k-closest-points-to-origin](https://github.com/naolgithub/Competitive-Programming/tree/master/1014-k-closest-points-to-origin) |
 | [2113-find-the-kth-largest-integer-in-the-array](https://github.com/naolgithub/Competitive-Programming/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
 ## Bucket Sort
 |  |
@@ -189,4 +195,8 @@
 |  |
 | ------- |
 | [0692-top-k-frequent-words](https://github.com/naolgithub/Competitive-Programming/tree/master/0692-top-k-frequent-words) |
+## Geometry
+|  |
+| ------- |
+| [1014-k-closest-points-to-origin](https://github.com/naolgithub/Competitive-Programming/tree/master/1014-k-closest-points-to-origin) |
 <!---LeetCode Topics End-->
