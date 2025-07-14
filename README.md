@@ -56,6 +56,7 @@
 | ------- |
 | [0013-roman-to-integer](https://github.com/naolgithub/Competitive-Programming/tree/master/0013-roman-to-integer) |
 | [0049-group-anagrams](https://github.com/naolgithub/Competitive-Programming/tree/master/0049-group-anagrams) |
+| [0412-fizz-buzz](https://github.com/naolgithub/Competitive-Programming/tree/master/0412-fizz-buzz) |
 | [0451-sort-characters-by-frequency](https://github.com/naolgithub/Competitive-Programming/tree/master/0451-sort-characters-by-frequency) |
 | [0692-top-k-frequent-words](https://github.com/naolgithub/Competitive-Programming/tree/master/0692-top-k-frequent-words) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/naolgithub/Competitive-Programming/tree/master/1353-find-resultant-array-after-removing-anagrams) |
@@ -97,6 +98,7 @@
 ## Simulation
 |  |
 | ------- |
+| [0412-fizz-buzz](https://github.com/naolgithub/Competitive-Programming/tree/master/0412-fizz-buzz) |
 | [2058-concatenation-of-array](https://github.com/naolgithub/Competitive-Programming/tree/master/2058-concatenation-of-array) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/naolgithub/Competitive-Programming/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/naolgithub/Competitive-Programming/tree/master/2692-take-gifts-from-the-richest-pile) |
@@ -107,6 +109,7 @@
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/naolgithub/Competitive-Programming/tree/master/0013-roman-to-integer) |
+| [0412-fizz-buzz](https://github.com/naolgithub/Competitive-Programming/tree/master/0412-fizz-buzz) |
 | [1014-k-closest-points-to-origin](https://github.com/naolgithub/Competitive-Programming/tree/master/1014-k-closest-points-to-origin) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/naolgithub/Competitive-Programming/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Sliding Window
