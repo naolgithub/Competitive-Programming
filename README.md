@@ -110,6 +110,7 @@
 | ------- |
 | [0013-roman-to-integer](https://github.com/naolgithub/Competitive-Programming/tree/master/0013-roman-to-integer) |
 | [0412-fizz-buzz](https://github.com/naolgithub/Competitive-Programming/tree/master/0412-fizz-buzz) |
+| [1013-fibonacci-number](https://github.com/naolgithub/Competitive-Programming/tree/master/1013-fibonacci-number) |
 | [1014-k-closest-points-to-origin](https://github.com/naolgithub/Competitive-Programming/tree/master/1014-k-closest-points-to-origin) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/naolgithub/Competitive-Programming/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Sliding Window
@@ -209,4 +210,16 @@
 |  |
 | ------- |
 | [1014-k-closest-points-to-origin](https://github.com/naolgithub/Competitive-Programming/tree/master/1014-k-closest-points-to-origin) |
+## Dynamic Programming
+|  |
+| ------- |
+| [1013-fibonacci-number](https://github.com/naolgithub/Competitive-Programming/tree/master/1013-fibonacci-number) |
+## Recursion
+|  |
+| ------- |
+| [1013-fibonacci-number](https://github.com/naolgithub/Competitive-Programming/tree/master/1013-fibonacci-number) |
+## Memoization
+|  |
+| ------- |
+| [1013-fibonacci-number](https://github.com/naolgithub/Competitive-Programming/tree/master/1013-fibonacci-number) |
 <!---LeetCode Topics End-->
