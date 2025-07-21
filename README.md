@@ -13,6 +13,7 @@
 | [0506-relative-ranks](https://github.com/naolgithub/Competitive-Programming/tree/master/0506-relative-ranks) |
 | [0658-find-k-closest-elements](https://github.com/naolgithub/Competitive-Programming/tree/master/0658-find-k-closest-elements) |
 | [0692-top-k-frequent-words](https://github.com/naolgithub/Competitive-Programming/tree/master/0692-top-k-frequent-words) |
+| [0792-binary-search](https://github.com/naolgithub/Competitive-Programming/tree/master/0792-binary-search) |
 | [1014-k-closest-points-to-origin](https://github.com/naolgithub/Competitive-Programming/tree/master/1014-k-closest-points-to-origin) |
 | [1127-last-stone-weight](https://github.com/naolgithub/Competitive-Programming/tree/master/1127-last-stone-weight) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/naolgithub/Competitive-Programming/tree/master/1353-find-resultant-array-after-removing-anagrams) |
@@ -188,6 +189,7 @@
 | ------- |
 | [0658-find-k-closest-elements](https://github.com/naolgithub/Competitive-Programming/tree/master/0658-find-k-closest-elements) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/naolgithub/Competitive-Programming/tree/master/0789-kth-largest-element-in-a-stream) |
+| [0792-binary-search](https://github.com/naolgithub/Competitive-Programming/tree/master/0792-binary-search) |
 ## Binary Tree
 |  |
 | ------- |
