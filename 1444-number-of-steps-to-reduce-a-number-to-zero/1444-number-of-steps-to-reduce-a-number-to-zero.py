@@ -9,7 +9,7 @@ class Solution:
                 return steps(num-1,count+1)
         return steps(num,0)
         #tc:log2N sc:log2N
-        # similar to (count zeros) of kunak kushwaha
+        # similar to (count zeros) of kunal kushwaha
         # 14/2=7,count=1
         # 7-1=6,count=2
         # 6/2=3,count=3
