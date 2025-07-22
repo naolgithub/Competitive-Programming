@@ -113,6 +113,7 @@
 | [0412-fizz-buzz](https://github.com/naolgithub/Competitive-Programming/tree/master/0412-fizz-buzz) |
 | [1013-fibonacci-number](https://github.com/naolgithub/Competitive-Programming/tree/master/1013-fibonacci-number) |
 | [1014-k-closest-points-to-origin](https://github.com/naolgithub/Competitive-Programming/tree/master/1014-k-closest-points-to-origin) |
+| [1444-number-of-steps-to-reduce-a-number-to-zero](https://github.com/naolgithub/Competitive-Programming/tree/master/1444-number-of-steps-to-reduce-a-number-to-zero) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/naolgithub/Competitive-Programming/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Sliding Window
 |  |
@@ -224,4 +225,8 @@
 |  |
 | ------- |
 | [1013-fibonacci-number](https://github.com/naolgithub/Competitive-Programming/tree/master/1013-fibonacci-number) |
+## Bit Manipulation
+|  |
+| ------- |
+| [1444-number-of-steps-to-reduce-a-number-to-zero](https://github.com/naolgithub/Competitive-Programming/tree/master/1444-number-of-steps-to-reduce-a-number-to-zero) |
 <!---LeetCode Topics End-->
