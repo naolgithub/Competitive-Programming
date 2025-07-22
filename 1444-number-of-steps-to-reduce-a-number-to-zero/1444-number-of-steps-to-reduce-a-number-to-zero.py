@@ -1,0 +1,17 @@
+class Solution:
+    def numberOfSteps(self, num: int) -> int:
+        def steps(num,count):
+            if num==0:
+                return count
+            if num%2==0:
+                return steps(num//2,count+1)
+            if num%2==1:
+                return steps(num-1,count+1)
+        return steps(num,0)
+        # similar to (count zeros) of kunak kushwaha
+        # 14/2=7,count=1
+        # 7-1=6,count=2
+        # 6/2=3,count=3
+        # 3-1=2,count=4
+        # 2/2=1,count=5
+        # 1/2=0,count=6
