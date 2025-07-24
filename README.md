@@ -112,6 +112,7 @@
 | [0013-roman-to-integer](https://github.com/naolgithub/Competitive-Programming/tree/master/0013-roman-to-integer) |
 | [0231-power-of-two](https://github.com/naolgithub/Competitive-Programming/tree/master/0231-power-of-two) |
 | [0326-power-of-three](https://github.com/naolgithub/Competitive-Programming/tree/master/0326-power-of-three) |
+| [0342-power-of-four](https://github.com/naolgithub/Competitive-Programming/tree/master/0342-power-of-four) |
 | [0412-fizz-buzz](https://github.com/naolgithub/Competitive-Programming/tree/master/0412-fizz-buzz) |
 | [1013-fibonacci-number](https://github.com/naolgithub/Competitive-Programming/tree/master/1013-fibonacci-number) |
 | [1014-k-closest-points-to-origin](https://github.com/naolgithub/Competitive-Programming/tree/master/1014-k-closest-points-to-origin) |
@@ -224,6 +225,7 @@
 | ------- |
 | [0231-power-of-two](https://github.com/naolgithub/Competitive-Programming/tree/master/0231-power-of-two) |
 | [0326-power-of-three](https://github.com/naolgithub/Competitive-Programming/tree/master/0326-power-of-three) |
+| [0342-power-of-four](https://github.com/naolgithub/Competitive-Programming/tree/master/0342-power-of-four) |
 | [1013-fibonacci-number](https://github.com/naolgithub/Competitive-Programming/tree/master/1013-fibonacci-number) |
 ## Memoization
 |  |
@@ -233,5 +235,6 @@
 |  |
 | ------- |
 | [0231-power-of-two](https://github.com/naolgithub/Competitive-Programming/tree/master/0231-power-of-two) |
+| [0342-power-of-four](https://github.com/naolgithub/Competitive-Programming/tree/master/0342-power-of-four) |
 | [1444-number-of-steps-to-reduce-a-number-to-zero](https://github.com/naolgithub/Competitive-Programming/tree/master/1444-number-of-steps-to-reduce-a-number-to-zero) |
 <!---LeetCode Topics End-->
