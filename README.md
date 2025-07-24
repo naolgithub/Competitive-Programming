@@ -110,6 +110,7 @@
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/naolgithub/Competitive-Programming/tree/master/0013-roman-to-integer) |
+| [0231-power-of-two](https://github.com/naolgithub/Competitive-Programming/tree/master/0231-power-of-two) |
 | [0412-fizz-buzz](https://github.com/naolgithub/Competitive-Programming/tree/master/0412-fizz-buzz) |
 | [1013-fibonacci-number](https://github.com/naolgithub/Competitive-Programming/tree/master/1013-fibonacci-number) |
 | [1014-k-closest-points-to-origin](https://github.com/naolgithub/Competitive-Programming/tree/master/1014-k-closest-points-to-origin) |
@@ -220,6 +221,7 @@
 ## Recursion
 |  |
 | ------- |
+| [0231-power-of-two](https://github.com/naolgithub/Competitive-Programming/tree/master/0231-power-of-two) |
 | [1013-fibonacci-number](https://github.com/naolgithub/Competitive-Programming/tree/master/1013-fibonacci-number) |
 ## Memoization
 |  |
@@ -228,5 +230,6 @@
 ## Bit Manipulation
 |  |
 | ------- |
+| [0231-power-of-two](https://github.com/naolgithub/Competitive-Programming/tree/master/0231-power-of-two) |
 | [1444-number-of-steps-to-reduce-a-number-to-zero](https://github.com/naolgithub/Competitive-Programming/tree/master/1444-number-of-steps-to-reduce-a-number-to-zero) |
 <!---LeetCode Topics End-->
