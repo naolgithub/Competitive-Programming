@@ -101,6 +101,7 @@
 | ------- |
 | [0412-fizz-buzz](https://github.com/naolgithub/Competitive-Programming/tree/master/0412-fizz-buzz) |
 | [2058-concatenation-of-array](https://github.com/naolgithub/Competitive-Programming/tree/master/2058-concatenation-of-array) |
+| [2288-count-operations-to-obtain-zero](https://github.com/naolgithub/Competitive-Programming/tree/master/2288-count-operations-to-obtain-zero) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/naolgithub/Competitive-Programming/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/naolgithub/Competitive-Programming/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [3226-minimum-number-game](https://github.com/naolgithub/Competitive-Programming/tree/master/3226-minimum-number-game) |
@@ -117,6 +118,7 @@
 | [1013-fibonacci-number](https://github.com/naolgithub/Competitive-Programming/tree/master/1013-fibonacci-number) |
 | [1014-k-closest-points-to-origin](https://github.com/naolgithub/Competitive-Programming/tree/master/1014-k-closest-points-to-origin) |
 | [1444-number-of-steps-to-reduce-a-number-to-zero](https://github.com/naolgithub/Competitive-Programming/tree/master/1444-number-of-steps-to-reduce-a-number-to-zero) |
+| [2288-count-operations-to-obtain-zero](https://github.com/naolgithub/Competitive-Programming/tree/master/2288-count-operations-to-obtain-zero) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/naolgithub/Competitive-Programming/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Sliding Window
 |  |
