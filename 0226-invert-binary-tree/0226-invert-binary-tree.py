@@ -12,4 +12,6 @@ class Solution:
         self.invertTree(root.left)
         self.invertTree(root.right)
         return root
+        #tc:0(N)
+        #sc:0(h) depth of the tree
         
