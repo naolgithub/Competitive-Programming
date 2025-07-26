@@ -4,6 +4,7 @@
 ## Array
 |  |
 | ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/naolgithub/Competitive-Programming/tree/master/0033-search-in-rotated-sorted-array) |
 | [0049-group-anagrams](https://github.com/naolgithub/Competitive-Programming/tree/master/0049-group-anagrams) |
 | [0128-longest-consecutive-sequence](https://github.com/naolgithub/Competitive-Programming/tree/master/0128-longest-consecutive-sequence) |
 | [0215-kth-largest-element-in-an-array](https://github.com/naolgithub/Competitive-Programming/tree/master/0215-kth-largest-element-in-an-array) |
@@ -193,6 +194,7 @@
 ## Binary Search Tree
 |  |
 | ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/naolgithub/Competitive-Programming/tree/master/0033-search-in-rotated-sorted-array) |
 | [0658-find-k-closest-elements](https://github.com/naolgithub/Competitive-Programming/tree/master/0658-find-k-closest-elements) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/naolgithub/Competitive-Programming/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0792-binary-search](https://github.com/naolgithub/Competitive-Programming/tree/master/0792-binary-search) |
