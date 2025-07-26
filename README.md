@@ -6,6 +6,7 @@
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/naolgithub/Competitive-Programming/tree/master/0033-search-in-rotated-sorted-array) |
 | [0049-group-anagrams](https://github.com/naolgithub/Competitive-Programming/tree/master/0049-group-anagrams) |
+| [0081-search-in-rotated-sorted-array-ii](https://github.com/naolgithub/Competitive-Programming/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0128-longest-consecutive-sequence](https://github.com/naolgithub/Competitive-Programming/tree/master/0128-longest-consecutive-sequence) |
 | [0215-kth-largest-element-in-an-array](https://github.com/naolgithub/Competitive-Programming/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/naolgithub/Competitive-Programming/tree/master/0217-contains-duplicate) |
@@ -195,6 +196,7 @@
 |  |
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/naolgithub/Competitive-Programming/tree/master/0033-search-in-rotated-sorted-array) |
+| [0081-search-in-rotated-sorted-array-ii](https://github.com/naolgithub/Competitive-Programming/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0658-find-k-closest-elements](https://github.com/naolgithub/Competitive-Programming/tree/master/0658-find-k-closest-elements) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/naolgithub/Competitive-Programming/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0792-binary-search](https://github.com/naolgithub/Competitive-Programming/tree/master/0792-binary-search) |
