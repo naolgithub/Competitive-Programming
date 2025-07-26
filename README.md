@@ -186,6 +186,7 @@
 ## Tree
 |  |
 | ------- |
+| [0226-invert-binary-tree](https://github.com/naolgithub/Competitive-Programming/tree/master/0226-invert-binary-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/naolgithub/Competitive-Programming/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Design
 |  |
@@ -203,6 +204,7 @@
 ## Binary Tree
 |  |
 | ------- |
+| [0226-invert-binary-tree](https://github.com/naolgithub/Competitive-Programming/tree/master/0226-invert-binary-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/naolgithub/Competitive-Programming/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Data Stream
 |  |
@@ -243,4 +245,12 @@
 | [0231-power-of-two](https://github.com/naolgithub/Competitive-Programming/tree/master/0231-power-of-two) |
 | [0342-power-of-four](https://github.com/naolgithub/Competitive-Programming/tree/master/0342-power-of-four) |
 | [1444-number-of-steps-to-reduce-a-number-to-zero](https://github.com/naolgithub/Competitive-Programming/tree/master/1444-number-of-steps-to-reduce-a-number-to-zero) |
+## Depth-First Search
+|  |
+| ------- |
+| [0226-invert-binary-tree](https://github.com/naolgithub/Competitive-Programming/tree/master/0226-invert-binary-tree) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0226-invert-binary-tree](https://github.com/naolgithub/Competitive-Programming/tree/master/0226-invert-binary-tree) |
 <!---LeetCode Topics End-->
