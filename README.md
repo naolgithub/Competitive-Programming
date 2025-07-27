@@ -191,6 +191,7 @@
 | [0104-maximum-depth-of-binary-tree](https://github.com/naolgithub/Competitive-Programming/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0111-minimum-depth-of-binary-tree](https://github.com/naolgithub/Competitive-Programming/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/naolgithub/Competitive-Programming/tree/master/0226-invert-binary-tree) |
+| [0637-average-of-levels-in-binary-tree](https://github.com/naolgithub/Competitive-Programming/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0774-maximum-depth-of-n-ary-tree](https://github.com/naolgithub/Competitive-Programming/tree/master/0774-maximum-depth-of-n-ary-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/naolgithub/Competitive-Programming/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Design
@@ -214,6 +215,7 @@
 | [0104-maximum-depth-of-binary-tree](https://github.com/naolgithub/Competitive-Programming/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0111-minimum-depth-of-binary-tree](https://github.com/naolgithub/Competitive-Programming/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/naolgithub/Competitive-Programming/tree/master/0226-invert-binary-tree) |
+| [0637-average-of-levels-in-binary-tree](https://github.com/naolgithub/Competitive-Programming/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/naolgithub/Competitive-Programming/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Data Stream
 |  |
@@ -260,6 +262,7 @@
 | [0104-maximum-depth-of-binary-tree](https://github.com/naolgithub/Competitive-Programming/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0111-minimum-depth-of-binary-tree](https://github.com/naolgithub/Competitive-Programming/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/naolgithub/Competitive-Programming/tree/master/0226-invert-binary-tree) |
+| [0637-average-of-levels-in-binary-tree](https://github.com/naolgithub/Competitive-Programming/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0774-maximum-depth-of-n-ary-tree](https://github.com/naolgithub/Competitive-Programming/tree/master/0774-maximum-depth-of-n-ary-tree) |
 ## Breadth-First Search
 |  |
@@ -269,5 +272,6 @@
 | [0104-maximum-depth-of-binary-tree](https://github.com/naolgithub/Competitive-Programming/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0111-minimum-depth-of-binary-tree](https://github.com/naolgithub/Competitive-Programming/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/naolgithub/Competitive-Programming/tree/master/0226-invert-binary-tree) |
+| [0637-average-of-levels-in-binary-tree](https://github.com/naolgithub/Competitive-Programming/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0774-maximum-depth-of-n-ary-tree](https://github.com/naolgithub/Competitive-Programming/tree/master/0774-maximum-depth-of-n-ary-tree) |
 <!---LeetCode Topics End-->
