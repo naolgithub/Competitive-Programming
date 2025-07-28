@@ -7,19 +7,31 @@
 class Solution:
     def findTarget(self, root: Optional[TreeNode], k: int) -> bool:
         #inorder traversal+two pointer
-        def inorder(node):
-            return inorder(node.left)+[node.val]+inorder(node.right)if node else []
-        sorted_values=inorder(root)
-        left,right=0,len(sorted_values)-1
-        while left<right:
-            current_sum=sorted_values[left]+sorted_values[right]
-            if current_sum==k:
+
+        # def inorder(node):
+        #     return inorder(node.left)+[node.val]+inorder(node.right)if node else []
+        # sorted_values=inorder(root)
+        # left,right=0,len(sorted_values)-1
+        # while left<right:
+        #     current_sum=sorted_values[left]+sorted_values[right]
+        #     if current_sum==k:
+        #         return True
+        #     elif current_sum>k:
+        #         right-=1
+        #     else:
+        #         left+=1
+        # return False
+
+        #dfs+hash set
+        seen=set()
+        def dfs(node):
+            if not node:
+                return False
+            if k-node.val in seen:
                 return True
-            elif current_sum>k:
-                right-=1
-            else:
-                left+=1
-        return False
+            seen.add(node.val)
+            return dfs(node.left) or dfs(node.right)
+        return dfs(root)
 
 
         
