@@ -196,6 +196,7 @@
 | [0637-average-of-levels-in-binary-tree](https://github.com/naolgithub/Competitive-Programming/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0764-n-ary-tree-level-order-traversal](https://github.com/naolgithub/Competitive-Programming/tree/master/0764-n-ary-tree-level-order-traversal) |
 | [0774-maximum-depth-of-n-ary-tree](https://github.com/naolgithub/Competitive-Programming/tree/master/0774-maximum-depth-of-n-ary-tree) |
+| [0783-search-in-a-binary-search-tree](https://github.com/naolgithub/Competitive-Programming/tree/master/0783-search-in-a-binary-search-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/naolgithub/Competitive-Programming/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Design
 |  |
@@ -208,6 +209,7 @@
 | [0033-search-in-rotated-sorted-array](https://github.com/naolgithub/Competitive-Programming/tree/master/0033-search-in-rotated-sorted-array) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/naolgithub/Competitive-Programming/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0658-find-k-closest-elements](https://github.com/naolgithub/Competitive-Programming/tree/master/0658-find-k-closest-elements) |
+| [0783-search-in-a-binary-search-tree](https://github.com/naolgithub/Competitive-Programming/tree/master/0783-search-in-a-binary-search-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/naolgithub/Competitive-Programming/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0792-binary-search](https://github.com/naolgithub/Competitive-Programming/tree/master/0792-binary-search) |
 ## Binary Tree
@@ -221,6 +223,7 @@
 | [0226-invert-binary-tree](https://github.com/naolgithub/Competitive-Programming/tree/master/0226-invert-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/naolgithub/Competitive-Programming/tree/master/0543-diameter-of-binary-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/naolgithub/Competitive-Programming/tree/master/0637-average-of-levels-in-binary-tree) |
+| [0783-search-in-a-binary-search-tree](https://github.com/naolgithub/Competitive-Programming/tree/master/0783-search-in-a-binary-search-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/naolgithub/Competitive-Programming/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Data Stream
 |  |
