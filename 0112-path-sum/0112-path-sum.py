@@ -6,19 +6,12 @@
 #         self.right = right
 class Solution:
     def hasPathSum(self, root: Optional[TreeNode], targetSum: int) -> bool:
-        self.foundPathSum = False
-        def dfs(root, parentSum):
-            # base case
+        def path_sum(root,current_sum):
             if not root:
-                return
+                return False
+            current_sum+=root.val
             if not root.left and not root.right:
-                pathSum = root.val + parentSum
-                if pathSum == targetSum:
-                    self.foundPathSum = True
-                return
-                    
-            # recurrence relation
-            dfs(root.left, parentSum + root.val)
-            dfs(root.right, parentSum + root.val)
-        dfs(root, 0)
-        return self.foundPathSum
+                return current_sum==targetSum
+            return path_sum(root.left,current_sum) or path_sum(root.right,current_sum)
+        return path_sum(root,0)
+        
