@@ -208,6 +208,7 @@
 | [0789-kth-largest-element-in-a-stream](https://github.com/naolgithub/Competitive-Programming/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1035-cousins-in-binary-tree](https://github.com/naolgithub/Competitive-Programming/tree/master/1035-cousins-in-binary-tree) |
 | [1254-deepest-leaves-sum](https://github.com/naolgithub/Competitive-Programming/tree/master/1254-deepest-leaves-sum) |
+| [1731-even-odd-tree](https://github.com/naolgithub/Competitive-Programming/tree/master/1731-even-odd-tree) |
 ## Design
 |  |
 | ------- |
@@ -245,6 +246,7 @@
 | [0789-kth-largest-element-in-a-stream](https://github.com/naolgithub/Competitive-Programming/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1035-cousins-in-binary-tree](https://github.com/naolgithub/Competitive-Programming/tree/master/1035-cousins-in-binary-tree) |
 | [1254-deepest-leaves-sum](https://github.com/naolgithub/Competitive-Programming/tree/master/1254-deepest-leaves-sum) |
+| [1731-even-odd-tree](https://github.com/naolgithub/Competitive-Programming/tree/master/1731-even-odd-tree) |
 ## Data Stream
 |  |
 | ------- |
@@ -324,6 +326,7 @@
 | [0774-maximum-depth-of-n-ary-tree](https://github.com/naolgithub/Competitive-Programming/tree/master/0774-maximum-depth-of-n-ary-tree) |
 | [1035-cousins-in-binary-tree](https://github.com/naolgithub/Competitive-Programming/tree/master/1035-cousins-in-binary-tree) |
 | [1254-deepest-leaves-sum](https://github.com/naolgithub/Competitive-Programming/tree/master/1254-deepest-leaves-sum) |
+| [1731-even-odd-tree](https://github.com/naolgithub/Competitive-Programming/tree/master/1731-even-odd-tree) |
 ## Linked List
 |  |
 | ------- |
