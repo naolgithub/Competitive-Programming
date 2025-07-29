@@ -207,6 +207,7 @@
 | [0783-search-in-a-binary-search-tree](https://github.com/naolgithub/Competitive-Programming/tree/master/0783-search-in-a-binary-search-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/naolgithub/Competitive-Programming/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1035-cousins-in-binary-tree](https://github.com/naolgithub/Competitive-Programming/tree/master/1035-cousins-in-binary-tree) |
+| [1254-deepest-leaves-sum](https://github.com/naolgithub/Competitive-Programming/tree/master/1254-deepest-leaves-sum) |
 ## Design
 |  |
 | ------- |
@@ -243,6 +244,7 @@
 | [0783-search-in-a-binary-search-tree](https://github.com/naolgithub/Competitive-Programming/tree/master/0783-search-in-a-binary-search-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/naolgithub/Competitive-Programming/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1035-cousins-in-binary-tree](https://github.com/naolgithub/Competitive-Programming/tree/master/1035-cousins-in-binary-tree) |
+| [1254-deepest-leaves-sum](https://github.com/naolgithub/Competitive-Programming/tree/master/1254-deepest-leaves-sum) |
 ## Data Stream
 |  |
 | ------- |
@@ -301,6 +303,7 @@
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/naolgithub/Competitive-Programming/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0774-maximum-depth-of-n-ary-tree](https://github.com/naolgithub/Competitive-Programming/tree/master/0774-maximum-depth-of-n-ary-tree) |
 | [1035-cousins-in-binary-tree](https://github.com/naolgithub/Competitive-Programming/tree/master/1035-cousins-in-binary-tree) |
+| [1254-deepest-leaves-sum](https://github.com/naolgithub/Competitive-Programming/tree/master/1254-deepest-leaves-sum) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -320,6 +323,7 @@
 | [0764-n-ary-tree-level-order-traversal](https://github.com/naolgithub/Competitive-Programming/tree/master/0764-n-ary-tree-level-order-traversal) |
 | [0774-maximum-depth-of-n-ary-tree](https://github.com/naolgithub/Competitive-Programming/tree/master/0774-maximum-depth-of-n-ary-tree) |
 | [1035-cousins-in-binary-tree](https://github.com/naolgithub/Competitive-Programming/tree/master/1035-cousins-in-binary-tree) |
+| [1254-deepest-leaves-sum](https://github.com/naolgithub/Competitive-Programming/tree/master/1254-deepest-leaves-sum) |
 ## Linked List
 |  |
 | ------- |
