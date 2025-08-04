@@ -8,6 +8,7 @@
 | [0049-group-anagrams](https://github.com/naolgithub/Competitive-Programming/tree/master/0049-group-anagrams) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/naolgithub/Competitive-Programming/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0128-longest-consecutive-sequence](https://github.com/naolgithub/Competitive-Programming/tree/master/0128-longest-consecutive-sequence) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/naolgithub/Competitive-Programming/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/naolgithub/Competitive-Programming/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0215-kth-largest-element-in-an-array](https://github.com/naolgithub/Competitive-Programming/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/naolgithub/Competitive-Programming/tree/master/0217-contains-duplicate) |
@@ -116,6 +117,7 @@
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/naolgithub/Competitive-Programming/tree/master/0013-roman-to-integer) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/naolgithub/Competitive-Programming/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0231-power-of-two](https://github.com/naolgithub/Competitive-Programming/tree/master/0231-power-of-two) |
 | [0326-power-of-three](https://github.com/naolgithub/Competitive-Programming/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/naolgithub/Competitive-Programming/tree/master/0342-power-of-four) |
@@ -359,4 +361,5 @@
 | [0094-binary-tree-inorder-traversal](https://github.com/naolgithub/Competitive-Programming/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/naolgithub/Competitive-Programming/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/naolgithub/Competitive-Programming/tree/master/0145-binary-tree-postorder-traversal) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/naolgithub/Competitive-Programming/tree/master/0150-evaluate-reverse-polish-notation) |
 <!---LeetCode Topics End-->
