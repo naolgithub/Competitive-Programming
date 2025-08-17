@@ -37,6 +37,7 @@
 | [2977-check-if-a-string-is-an-acronym-of-words](https://github.com/naolgithub/Competitive-Programming/tree/master/2977-check-if-a-string-is-an-acronym-of-words) |
 | [3226-minimum-number-game](https://github.com/naolgithub/Competitive-Programming/tree/master/3226-minimum-number-game) |
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/naolgithub/Competitive-Programming/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
+| [3495-k-th-nearest-obstacle-queries](https://github.com/naolgithub/Competitive-Programming/tree/master/3495-k-th-nearest-obstacle-queries) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/naolgithub/Competitive-Programming/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Hash Table
 |  |
@@ -163,6 +164,7 @@
 | [2692-take-gifts-from-the-richest-pile](https://github.com/naolgithub/Competitive-Programming/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [3226-minimum-number-game](https://github.com/naolgithub/Competitive-Programming/tree/master/3226-minimum-number-game) |
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/naolgithub/Competitive-Programming/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
+| [3495-k-th-nearest-obstacle-queries](https://github.com/naolgithub/Competitive-Programming/tree/master/3495-k-th-nearest-obstacle-queries) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/naolgithub/Competitive-Programming/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Union Find
 |  |
