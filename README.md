@@ -47,6 +47,7 @@
 | [0128-longest-consecutive-sequence](https://github.com/naolgithub/Competitive-Programming/tree/master/0128-longest-consecutive-sequence) |
 | [0217-contains-duplicate](https://github.com/naolgithub/Competitive-Programming/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/naolgithub/Competitive-Programming/tree/master/0219-contains-duplicate-ii) |
+| [0242-valid-anagram](https://github.com/naolgithub/Competitive-Programming/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/naolgithub/Competitive-Programming/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/naolgithub/Competitive-Programming/tree/master/0451-sort-characters-by-frequency) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/naolgithub/Competitive-Programming/tree/master/0653-two-sum-iv-input-is-a-bst) |
@@ -63,6 +64,7 @@
 | ------- |
 | [0013-roman-to-integer](https://github.com/naolgithub/Competitive-Programming/tree/master/0013-roman-to-integer) |
 | [0049-group-anagrams](https://github.com/naolgithub/Competitive-Programming/tree/master/0049-group-anagrams) |
+| [0242-valid-anagram](https://github.com/naolgithub/Competitive-Programming/tree/master/0242-valid-anagram) |
 | [0412-fizz-buzz](https://github.com/naolgithub/Competitive-Programming/tree/master/0412-fizz-buzz) |
 | [0451-sort-characters-by-frequency](https://github.com/naolgithub/Competitive-Programming/tree/master/0451-sort-characters-by-frequency) |
 | [0692-top-k-frequent-words](https://github.com/naolgithub/Competitive-Programming/tree/master/0692-top-k-frequent-words) |
@@ -79,6 +81,7 @@
 | [0049-group-anagrams](https://github.com/naolgithub/Competitive-Programming/tree/master/0049-group-anagrams) |
 | [0215-kth-largest-element-in-an-array](https://github.com/naolgithub/Competitive-Programming/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/naolgithub/Competitive-Programming/tree/master/0217-contains-duplicate) |
+| [0242-valid-anagram](https://github.com/naolgithub/Competitive-Programming/tree/master/0242-valid-anagram) |
 | [0295-find-median-from-data-stream](https://github.com/naolgithub/Competitive-Programming/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/naolgithub/Competitive-Programming/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/naolgithub/Competitive-Programming/tree/master/0451-sort-characters-by-frequency) |
