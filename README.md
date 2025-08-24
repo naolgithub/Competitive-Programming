@@ -6,6 +6,7 @@
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/naolgithub/Competitive-Programming/tree/master/0033-search-in-rotated-sorted-array) |
 | [0049-group-anagrams](https://github.com/naolgithub/Competitive-Programming/tree/master/0049-group-anagrams) |
+| [0078-subsets](https://github.com/naolgithub/Competitive-Programming/tree/master/0078-subsets) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/naolgithub/Competitive-Programming/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0128-longest-consecutive-sequence](https://github.com/naolgithub/Competitive-Programming/tree/master/0128-longest-consecutive-sequence) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/naolgithub/Competitive-Programming/tree/master/0150-evaluate-reverse-polish-notation) |
@@ -305,6 +306,7 @@
 ## Bit Manipulation
 |  |
 | ------- |
+| [0078-subsets](https://github.com/naolgithub/Competitive-Programming/tree/master/0078-subsets) |
 | [0231-power-of-two](https://github.com/naolgithub/Competitive-Programming/tree/master/0231-power-of-two) |
 | [0342-power-of-four](https://github.com/naolgithub/Competitive-Programming/tree/master/0342-power-of-four) |
 | [1444-number-of-steps-to-reduce-a-number-to-zero](https://github.com/naolgithub/Competitive-Programming/tree/master/1444-number-of-steps-to-reduce-a-number-to-zero) |
@@ -367,4 +369,8 @@
 | [0144-binary-tree-preorder-traversal](https://github.com/naolgithub/Competitive-Programming/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/naolgithub/Competitive-Programming/tree/master/0145-binary-tree-postorder-traversal) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/naolgithub/Competitive-Programming/tree/master/0150-evaluate-reverse-polish-notation) |
+## Backtracking
+|  |
+| ------- |
+| [0078-subsets](https://github.com/naolgithub/Competitive-Programming/tree/master/0078-subsets) |
 <!---LeetCode Topics End-->
